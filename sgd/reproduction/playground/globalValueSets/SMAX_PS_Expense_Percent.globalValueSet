@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>10</fullName>
+        <default>true</default>
+        <label>10%</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>20%</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>15%</label>
+    </customValue>
+    <masterLabel>諸経費パーセント</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

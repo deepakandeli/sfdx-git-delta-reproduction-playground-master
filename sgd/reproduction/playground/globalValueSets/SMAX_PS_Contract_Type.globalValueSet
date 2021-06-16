@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AOP</fullName>
+        <default>false</default>
+        <label>AOP</label>
+    </customValue>
+    <customValue>
+        <fullName>AOP_Subscription</fullName>
+        <default>false</default>
+        <label>AOP Subscription</label>
+    </customValue>
+    <customValue>
+        <fullName>AOP_Connects</fullName>
+        <default>false</default>
+        <label>AOP Connects</label>
+    </customValue>
+    <customValue>
+        <fullName>AOP_Shared</fullName>
+        <default>false</default>
+        <label>AOP Shared</label>
+    </customValue>
+    <customValue>
+        <fullName>AOP_Custom</fullName>
+        <default>false</default>
+        <label>AOPカスタム</label>
+    </customValue>
+    <customValue>
+        <fullName>MaintenanceContract</fullName>
+        <default>false</default>
+        <label>保守契約</label>
+    </customValue>
+    <customValue>
+        <fullName>CustomPlan</fullName>
+        <default>false</default>
+        <label>カスタムプラン</label>
+    </customValue>
+    <customValue>
+        <fullName>AggregatePlan</fullName>
+        <default>false</default>
+        <label>包括プラン</label>
+    </customValue>
+    <masterLabel>契約タイプ</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

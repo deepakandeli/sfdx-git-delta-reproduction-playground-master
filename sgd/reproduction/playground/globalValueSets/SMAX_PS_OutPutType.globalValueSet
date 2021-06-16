@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>HTS</fullName>
+        <default>true</default>
+        <label>HTS様式</label>
+    </customValue>
+    <customValue>
+        <fullName>HOR</fullName>
+        <default>false</default>
+        <label>HOR様式</label>
+    </customValue>
+    <masterLabel>帳票様式（HTS/HOR）</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

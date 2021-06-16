@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1040</fullName>
+        <default>false</default>
+        <label>HTS, KYOTO</label>
+    </customValue>
+    <masterLabel>プラント</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
