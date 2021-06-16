@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>SMAX_PS_Case_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SMAX PS Case Sharing</label>
+        <sharedTo>
+            <group>SMAX_PS_HTS_Other_Object_R_W</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>HoribaTechnoService</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
