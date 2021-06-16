@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スキル・資格</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- 製品オーナー --></label>
+        <name>SMAX_PS_Product_Owner__c</name>
+        <picklistValues>
+            <masterLabel>HAT</masterLabel>
+            <translation><!-- HAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HFR</masterLabel>
+            <translation><!-- HFR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HII</masterLabel>
+            <translation><!-- HII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOR</masterLabel>
+            <translation><!-- HOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTS</masterLabel>
+            <translation><!-- HTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STEC</masterLabel>
+            <translation><!-- STEC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- セグメント --></label>
+        <name>SMAX_PS_Segment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if this skill is currently active and available for use --></help>
+        <label><!-- Active --></label>
+        <name>SVMXC__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Detailed description of the skill --></help>
+        <label><!-- Description --></label>
+        <name>SVMXC__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>SVMXC__Select__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates where this skill is applicable, in the field or depot or both --></help>
+        <label><!-- Skill Area --></label>
+        <name>SVMXC__Skill_Area__c</name>
+        <picklistValues>
+            <masterLabel>Depot Repair</masterLabel>
+            <translation>デポでの修理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field And Depot</masterLabel>
+            <translation>現場およびデポ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Service</masterLabel>
+            <translation>フィールド サービス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates the type of skill. This helps in grouping similar types of skills for reporting purposes. --></help>
+        <label><!-- Skill Category --></label>
+        <name>SVMXC__Skill_Category__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>入門資格</masterLabel>
+            <translation><!-- 入門資格 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>機器別スキル</masterLabel>
+            <translation><!-- 機器別スキル --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Benchmark for the maximum level of proficiency for this skill --></help>
+        <label><!-- Skill Level – High --></label>
+        <name>SVMXC__Skill_Level_High__c</name>
+    </fields>
+    <fields>
+        <help><!-- Benchmark for the minimum level of proficiency for this skill --></help>
+        <label><!-- Skill Level – Low --></label>
+        <name>SVMXC__Skill_Level_Low__c</name>
+    </fields>
+    <fields>
+        <help><!-- Benchmark for the average level of proficiency for this skill --></help>
+        <label><!-- Skill Level – Medium --></label>
+        <name>SVMXC__Skill_Level_Medium__c</name>
+    </fields>
+    <nameFieldLabel>スキル/資格</nameFieldLabel>
+</CustomObjectTranslation>

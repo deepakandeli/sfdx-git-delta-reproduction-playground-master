@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>必須部品</value>
+    </caseValues>
+    <fields>
+        <label><!-- アクティビティタイプ --></label>
+        <name>SMAX_PS_Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>SMAX_PS_Activity__c</name>
+        <relationshipLabel><!-- Required Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 見積品目名 --></label>
+        <name>SMAX_PS_Item_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 種別 --></label>
+        <name>SMAX_PS_Line_Type__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>人件費</masterLabel>
+            <translation><!-- 人件費 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>検査機器</masterLabel>
+            <translation><!-- 検査機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品明細</masterLabel>
+            <translation><!-- 部品明細 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 袋単位 --></label>
+        <name>SMAX_PS_Pack_Unit_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- 製品区分 --></label>
+        <name>SMAX_PS_Product_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- 備考 --></label>
+        <name>SMAX_PS_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTSプラントステータス（商品） --></label>
+        <name>SMAX_PS_SAP_HTSPlantStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- 対象区分 --></label>
+        <name>SMAX_PS_Service_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- 単位 --></label>
+        <name>SMAX_PS_Unit_Of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- 用途 --></label>
+        <name>SMAX_PS_Use_Purpose__c</name>
+    </fields>
+    <fields>
+        <label>品目</label>
+        <name>SVMXC__Product__c</name>
+        <relationshipLabel><!-- Required Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>SVMXC__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Purpose --></label>
+        <name>SVMXC__Work_Order_Purpose__c</name>
+        <relationshipLabel><!-- Required Parts --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>レコード番号</nameFieldLabel>
+</CustomObjectTranslation>

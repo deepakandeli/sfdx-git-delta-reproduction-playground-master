@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <content>SMAX_PS_Case_Line_Override</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>SMAX_PS_Case_Line_Override</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>SMAX_PS_Case_Line_Override</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Case Line</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>SMAX_PS_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>SMAX_PS_Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+        <relationshipName>SMAX_PS_Account</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Case_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( SVMXC__Case__r.RecordType.DeveloperName = &quot;SMAX_PS_ServiceCase&quot;, &quot;問合せケース&quot;, &quot;引合ケース&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ケースレコードタイプ</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Case_Start_DateTime__c</fullName>
+        <externalId>false</externalId>
+        <formula>SVMXC__Case__r.SMAX_PS_StartDateTime__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>開始日時</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Case_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SVMXC__Case__r.Status )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ケース状況</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Case_Subject__c</fullName>
+        <externalId>false</externalId>
+        <formula>SVMXC__Case__r.Subject</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>件名</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Dislay_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( SVMXC__Installed_Product__c = null,  SVMXC__Product__r.Name ,  SVMXC__Installed_Product__r.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>見積表示テキスト</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_IP_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Company__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>エンドユーザ</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_IP_Location__c</fullName>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Site__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>設置場所</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_IP_SerialNo__c</fullName>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Serial_Lot_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>HGS No.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_IP_SubLocation__c</fullName>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SMAX_PS_ChildLocation__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ベンチ</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Product_PLC__c</fullName>
+        <externalId>false</externalId>
+        <formula>SVMXC__Product__r.SMAX_PS_SAP_PLC__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PLC</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Work_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>作業指示</label>
+        <referenceTo>SVMXC__Service_Order__c</referenceTo>
+        <relationshipLabel>Case Lines</relationshipLabel>
+        <relationshipName>Case_Lines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Case__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Case Lines</relationshipLabel>
+        <relationshipName>Case_Lines</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Detailed problem description</description>
+        <externalId>false</externalId>
+        <label>Problem Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Entitled_Exchange_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of exchange allowed as the outcome of entitlement verification.</description>
+        <externalId>false</externalId>
+        <label>Entitled Exchange Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advance Exchange</fullName>
+                    <default>false</default>
+                    <label>Advance Exchange</label>
+                </value>
+                <value>
+                    <fullName>Return Exchange</fullName>
+                    <default>false</default>
+                    <label>Return Exchange</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Entitlement_History__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Entitlement History</label>
+        <referenceTo>SVMXC__Entitlement_History__c</referenceTo>
+        <relationshipLabel>Case Lines</relationshipLabel>
+        <relationshipName>Case_Lines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Entitlement_Notes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Notes entered by the user during entitlement verification</description>
+        <externalId>false</externalId>
+        <label>Entitlement Notes</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Entitlement_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Outcome of entitlement check, if performed</description>
+        <externalId>false</externalId>
+        <label>Entitlement Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Warranty</fullName>
+                    <default>false</default>
+                    <label>Warranty</label>
+                </value>
+                <value>
+                    <fullName>Contract</fullName>
+                    <default>false</default>
+                    <label>Contract</label>
+                </value>
+                <value>
+                    <fullName>Not Available</fullName>
+                    <default>false</default>
+                    <label>Not Available</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Installed_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference to an existing installed product record</description>
+        <externalId>false</externalId>
+        <label>Installed Product</label>
+        <referenceTo>SVMXC__Installed_Product__c</referenceTo>
+        <relationshipLabel>Case Lines</relationshipLabel>
+        <relationshipName>Case_Lines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Line_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Case Line status</description>
+        <externalId>false</externalId>
+        <label>Line Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <referenceTo>SVMXC__Site__c</referenceTo>
+        <relationshipLabel>Case Lines</relationshipLabel>
+        <relationshipName>Case_Lines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Case Line Priority</description>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Product_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Product number in text format. Used when product number cannot be resolved to an existing Product record</description>
+        <externalId>false</externalId>
+        <label>Product Text</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference to an existing product record</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Case Lines</relationshipLabel>
+        <relationshipName>Case_Lines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Line quantity</description>
+        <externalId>false</externalId>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Route_Card__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference to the calculated route for the line</description>
+        <externalId>false</externalId>
+        <label>Route Card</label>
+        <referenceTo>SVMXC__Route_Card__c</referenceTo>
+        <relationshipLabel>Case Lines</relationshipLabel>
+        <relationshipName>Case_Lines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Serial_Number_List__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of serial numbers, if applicable</description>
+        <externalId>false</externalId>
+        <label>Serial Number</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Contract_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Service Contract End Date from Installed Product record. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Service_Contract_End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service Contract End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Contract_Exchange_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of exchange allowed as per service contract. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>TEXT( SVMXC__Installed_Product__r.SVMXC__Service_Contract_Exchange_Type__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service Contract Exchange Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Contract_Line__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Latest Service Contract Line from Installed Product record. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Service_Contract_Line__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service Contract Line</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Contract_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Service Contract Start Date from Installed Product record. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Service_Contract_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service Contract Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Contract__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Latest Service Contract from Installed Product record. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Service_Contract__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service Contract</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Summary__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Brief summary of the problem with the product</description>
+        <externalId>false</externalId>
+        <label>Problem Summary</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Warranty_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Warranty End Date from Installed Product record. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Warranty_End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Warranty End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Warranty_Exchange_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of exchange allowed as per warranty. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>TEXT(SVMXC__Installed_Product__r.SVMXC__Warranty_Exchange_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Warranty Exchange Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Warranty_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Warranty Start Date from Installed Product record. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Warranty_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Warranty Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Warranty__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Latest warranty from Installed Product record. Created as a formula to run entitlement verification more efficiently</description>
+        <externalId>false</externalId>
+        <formula>SVMXC__Installed_Product__r.SVMXC__Warranty__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Warranty</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Case Line</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>すべて選択</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Record Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Case Lines</pluralLabel>
+    <searchLayouts>
+        <searchFilterFields>SVMXC__Installed_Product__c</searchFilterFields>
+        <searchResultsAdditionalFields>SMAX_PS_IP_SerialNo__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Installed_Product__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Product__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SMAX_PS_IP_Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SVMXC__Service_Contract__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>SMAX_PS_Check_Close_Case</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( 
+ OR ( 
+      ISPICKVAL(SVMXC__Case__r.Status, &apos;Closed&apos;), 
+      ISPICKVAL(SVMXC__Case__r.Status, &apos;Lost&apos;)
+    )
+, True, False)</errorConditionFormula>
+        <errorMessage>完了・失注ケースを変更できません。</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SMAX_PS_Required_IP_or_Product</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(AND( SVMXC__Product__c = null,  SVMXC__Installed_Product__c =null), true, false)</errorConditionFormula>
+        <errorMessage>Installed Productもしくは製品を設定ください。</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SMAX_PS_Validate_Account</fullName>
+        <active>true</active>
+        <description>Checking if Account Id of case is equal to Account ID of IP</description>
+        <errorConditionFormula>IF(SVMXC__Installed_Product__c  &lt;&gt; null,  IF(SVMXC__Case__r.Account.Id   &lt;&gt;    SVMXC__Installed_Product__r.SVMXC__Company__r.Id 
+, true, false) , false)</errorConditionFormula>
+        <errorMessage>ケース”取引先名”に関連しているInstalled Productのみ設定してください。</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SMAX_PS_Validate_Product</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(AND( SVMXC__Installed_Product__c &lt;&gt; null,  SVMXC__Installed_Product__r.SVMXC__Product__c &lt;&gt;  SVMXC__Product__c), true, false)</errorConditionFormula>
+        <errorMessage>Installed Productの製品を設定ください。</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

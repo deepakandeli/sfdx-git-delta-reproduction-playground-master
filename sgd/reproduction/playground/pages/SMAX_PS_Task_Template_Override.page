@@ -1,0 +1,10 @@
+<apex:page standardController="SVMXC__Task_Template__c">
+<script>
+window.onload = window.setTimeout(redirect(),0);
+
+function redirect(){
+window.location.href='/apex/SVMXC__ServiceMaxConsole?SVMX_processId=SFM16179319224441c40becdbfc2272b54da393f9fc437bc&SVMX_retURL=%2Fa3W%2Fo&SVMX_IsSFMLightning=true&SVMX_IsStatisticsEnabled=true';
+}
+</script>
+
+</apex:page>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>見積明細</value>
+    </caseValues>
+    <fields>
+        <label><!-- アクティビティタイプ --></label>
+        <name>SMAX_PS_Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- アクティビティ --></label>
+        <name>SMAX_PS_Activity__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 元見積明細 --></label>
+        <name>SMAX_PS_Cloned_From_Quote_Lines__c</name>
+        <relationshipLabel><!-- 見積明細 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 顧客支給品 --></label>
+        <name>SMAX_PS_Customer_Procured__c</name>
+    </fields>
+    <fields>
+        <label><!-- 諸経費対象 --></label>
+        <name>SMAX_PS_Expense_Target_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- 諸経費対象 --></label>
+        <name>SMAX_PS_Expense_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- 見積品目名 --></label>
+        <name>SMAX_PS_Item_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 項目の説明 --></label>
+        <name>SMAX_PS_Line_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- 項目価格 --></label>
+        <name>SMAX_PS_Line_Price2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 小計 --></label>
+        <name>SMAX_PS_Line_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- 種別 --></label>
+        <name>SMAX_PS_Line_Type__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>人件費</masterLabel>
+            <translation><!-- 人件費 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>検査機器</masterLabel>
+            <translation><!-- 検査機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品明細</masterLabel>
+            <translation><!-- 部品明細 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 袋単位 --></label>
+        <name>SMAX_PS_Pack_Unit_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- 製品区分 --></label>
+        <name>SMAX_PS_Product_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- 品目外部キー --></label>
+        <name>SMAX_PS_Product_External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- 品目名 --></label>
+        <name>SMAX_PS_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 品目 --></label>
+        <name>SMAX_PS_Product__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 数量 --></label>
+        <name>SMAX_PS_Quantity2__c</name>
+    </fields>
+    <fields>
+        <label><!-- サービス見積 --></label>
+        <name>SMAX_PS_Quote__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 価格表参照 --></label>
+        <name>SMAX_PS_Refer_PB__c</name>
+    </fields>
+    <fields>
+        <label><!-- 備考 --></label>
+        <name>SMAX_PS_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTS基準納期 --></label>
+        <name>SMAX_PS_SAP_HTSDelDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTSプラントステータス（商品） --></label>
+        <name>SMAX_PS_SAP_HTSPlantStatus_Fml__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTSプラントステータス --></label>
+        <name>SMAX_PS_SAP_HTSPlantStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP品目コード --></label>
+        <name>SMAX_PS_SAP_MaterialCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- 補用品フラグ --></label>
+        <name>SMAX_PS_SAP_MaterialGroup1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 作業内容の詳細 --></label>
+        <name>SMAX_PS_Service_Order_Line__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- サービス価格No. --></label>
+        <name>SMAX_PS_Service_PBE__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 見積対象製品・項番 --></label>
+        <name>SMAX_PS_Service_Quote_IP_Line__c</name>
+        <relationshipLabel><!-- Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 対象区分 --></label>
+        <name>SMAX_PS_Service_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- 仕様 --></label>
+        <name>SMAX_PS_Spec_PLM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tech Total --></label>
+        <name>SMAX_PS_Tech_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- 単位 --></label>
+        <name>SMAX_PS_Unit_Of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- 単価 --></label>
+        <name>SMAX_PS_Unit_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- 用途 --></label>
+        <name>SMAX_PS_Use_Purpose__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- ドラフトステータスのサービス見積の明細のみ変更・登録が可能です。 --></errorMessage>
+        <name>SMAX_PS_Validate_For_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 廃止部品があります。HTSプラントステータスを確認してください。 --></errorMessage>
+        <name>SMAX_PS_Validate_HTS_Plant</name>
+    </validationRules>
+</CustomObjectTranslation>

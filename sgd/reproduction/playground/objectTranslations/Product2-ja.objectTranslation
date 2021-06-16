@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- 仕様（英） --></label>
+        <name>SMAX_PS_DescriptionEng__c</name>
+    </fields>
+    <fields>
+        <label><!-- 部品供給終了日 --></label>
+        <name>SMAX_PS_EndOfPartsSupply__c</name>
+    </fields>
+    <fields>
+        <label><!-- 製品販売終了日 --></label>
+        <name>SMAX_PS_EndOfSalesDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 品名（英） --></label>
+        <name>SMAX_PS_NameEng__c</name>
+    </fields>
+    <fields>
+        <label><!-- 製品区分 --></label>
+        <name>SMAX_PS_Product_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- 予算型式コード --></label>
+        <name>SMAX_PS_SAP_BMC__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTS基準納期 --></label>
+        <name>SMAX_PS_SAP_HTSDelDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTSプラントステータス --></label>
+        <name>SMAX_PS_SAP_HTSPlantStatus__c</name>
+        <picklistValues>
+            <masterLabel>New/ Obsolete HMFR</masterLabel>
+            <translation><!-- New/ Obsolete HMFR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New/ Prod order HMFR</masterLabel>
+            <translation><!-- New/ Prod order HMFR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New/ prohibit Purc.Prod.</masterLabel>
+            <translation><!-- New/ prohibit Purc.Prod. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non RoHS compliant</masterLabel>
+            <translation><!-- Non RoHS compliant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proc. stoppage</masterLabel>
+            <translation><!-- Proc. stoppage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Std price unknown/ no mvt</masterLabel>
+            <translation><!-- Std price unknown/ no mvt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical change WIP</masterLabel>
+            <translation><!-- Technical change WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>【国内使用禁止】調達/倉庫に対しブロック中</masterLabel>
+            <translation><!-- 【国内使用禁止】調達/倉庫に対しブロック中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>メンテナンス対象外</masterLabel>
+            <translation><!-- メンテナンス対象外 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>再見積必要（送り発生時）</masterLabel>
+            <translation><!-- 再見積必要（送り発生時） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>判別不能</masterLabel>
+            <translation><!-- 判別不能 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>判別不能(原価あり）</masterLabel>
+            <translation><!-- 判別不能(原価あり） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>原価なし</masterLabel>
+            <translation><!-- 原価なし --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>廃止</masterLabel>
+            <translation><!-- 廃止 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新規登録（未リリース）</masterLabel>
+            <translation><!-- 新規登録（未リリース） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>生産中止警告（メーカー終息部品）</masterLabel>
+            <translation><!-- 生産中止警告（メーカー終息部品） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>購買禁止（購入不可）</masterLabel>
+            <translation><!-- 購買禁止（購入不可） --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SAP品目コード --></label>
+        <name>SMAX_PS_SAP_MaterialCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- 補用品フラグ --></label>
+        <name>SMAX_PS_SAP_MaterialGroup1__c</name>
+        <picklistValues>
+            <masterLabel>アップグレード</masterLabel>
+            <translation><!-- アップグレード --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービスTOOLS</masterLabel>
+            <translation><!-- サービスTOOLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ローテーションモジュール</masterLabel>
+            <translation><!-- ローテーションモジュール --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>最終在庫部品</masterLabel>
+            <translation><!-- 最終在庫部品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>有寿命部品</masterLabel>
+            <translation><!-- 有寿命部品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>特殊部品</masterLabel>
+            <translation><!-- 特殊部品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>補助材料</masterLabel>
+            <translation><!-- 補助材料 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>補用部品</masterLabel>
+            <translation><!-- 補用部品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>通常部品</masterLabel>
+            <translation><!-- 通常部品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>重要部品</masterLabel>
+            <translation><!-- 重要部品 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SAP品目タイプ --></label>
+        <name>SMAX_PS_SAP_MaterialType__c</name>
+        <picklistValues>
+            <masterLabel>Certificates - AP</masterLabel>
+            <translation><!-- Certificates - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificates - EMEA</masterLabel>
+            <translation><!-- Certificates - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificates - US</masterLabel>
+            <translation><!-- Certificates - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービス作業</masterLabel>
+            <translation><!-- サービス作業 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービス設備 - AP</masterLabel>
+            <translation><!-- サービス設備 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービス設備 - EMEA</masterLabel>
+            <translation><!-- サービス設備 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービス設備 - US</masterLabel>
+            <translation><!-- サービス設備 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>セット販売品目 - AP</masterLabel>
+            <translation><!-- セット販売品目 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>セット販売品目 - EMEA</masterLabel>
+            <translation><!-- セット販売品目 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>セット販売品目 - US</masterLabel>
+            <translation><!-- セット販売品目 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ファントム品 - AP</masterLabel>
+            <translation><!-- ファントム品 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ファントム品 - EMEA</masterLabel>
+            <translation><!-- ファントム品 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ファントム品 - US</masterLabel>
+            <translation><!-- ファントム品 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半製品 - AP</masterLabel>
+            <translation><!-- 半製品 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半製品 - EMEA</masterLabel>
+            <translation><!-- 半製品 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半製品 - US</masterLabel>
+            <translation><!-- 半製品 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>商品 - AP</masterLabel>
+            <translation><!-- 商品 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>商品 - EMEA</masterLabel>
+            <translation><!-- 商品 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>商品 - US</masterLabel>
+            <translation><!-- 商品 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>営業作業 - AP</masterLabel>
+            <translation><!-- 営業作業 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>営業作業 - EMEA</masterLabel>
+            <translation><!-- 営業作業 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>営業作業 - US</masterLabel>
+            <translation><!-- 営業作業 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>固定資産 - AP</masterLabel>
+            <translation><!-- 固定資産 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>固定資産 - EMEA</masterLabel>
+            <translation><!-- 固定資産 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>固定資産 - US</masterLabel>
+            <translation><!-- 固定資産 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>梱包材 - AP</masterLabel>
+            <translation><!-- 梱包材 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>梱包材 - EMEA</masterLabel>
+            <translation><!-- 梱包材 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>梱包材 - US</masterLabel>
+            <translation><!-- 梱包材 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>経費購買品 - AP</masterLabel>
+            <translation><!-- 経費購買品 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>経費購買品 - EMEA</masterLabel>
+            <translation><!-- 経費購買品 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>経費購買品 - US</masterLabel>
+            <translation><!-- 経費購買品 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品 - AP</masterLabel>
+            <translation><!-- 製品 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品 - EMEA</masterLabel>
+            <translation><!-- 製品 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品 - US</masterLabel>
+            <translation><!-- 製品 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製造者製品 - AP</masterLabel>
+            <translation><!-- 製造者製品 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製造者製品 - EMEA</masterLabel>
+            <translation><!-- 製造者製品 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製造者製品 - US</masterLabel>
+            <translation><!-- 製造者製品 - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>計画品目</masterLabel>
+            <translation><!-- 計画品目 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品 - AP</masterLabel>
+            <translation><!-- 部品 - AP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品 - EMEA</masterLabel>
+            <translation><!-- 部品 - EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品 - US</masterLabel>
+            <translation><!-- 部品 - US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PCCコード --></label>
+        <name>SMAX_PS_SAP_PCC__c</name>
+    </fields>
+    <fields>
+        <label><!-- PLCコード --></label>
+        <name>SMAX_PS_SAP_PLC__c</name>
+    </fields>
+    <fields>
+        <label><!-- 対象区分 --></label>
+        <name>SMAX_PS_Service_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- 仕様 --></label>
+        <name>SMAX_PS_Spec_PLM__c</name>
+    </fields>
+    <fields>
+        <label><!-- 単位（サービス品目） --></label>
+        <name>SMAX_PS_Unit_Of_Measure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if stock information for this product is tracked at the serial number level. If this flag is checked, serial number information will be captured in all ServiceMax inventory transactions. --></help>
+        <label><!-- Enable Serialized Tracking of Stock --></label>
+        <name>SVMXC__Enable_Serialized_Tracking__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if installed products of this product inherit the parent&apos;s warranty automatically. If not, this product should be linked to a warranty template. --></help>
+        <label><!-- Inherit Parent Warranty --></label>
+        <name>SVMXC__Inherit_Parent_Warranty__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product cost in the default currency for your organization. Used for computing inventory value in ServiceMax. --></help>
+        <label><!-- Product Cost --></label>
+        <name>SVMXC__Product_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product Line is another way to classify your products (similar to product family). --></help>
+        <label><!-- Product Line --></label>
+        <name>SVMXC__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>作業費</masterLabel>
+            <translation><!-- 作業費 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>検査機器</masterLabel>
+            <translation><!-- 検査機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>機器</masterLabel>
+            <translation><!-- 機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品</masterLabel>
+            <translation><!-- 製品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品</masterLabel>
+            <translation><!-- 部品 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>SVMXC__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>作業費</masterLabel>
+            <translation><!-- 作業費 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>検査機器</masterLabel>
+            <translation><!-- 検査機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>機器</masterLabel>
+            <translation><!-- 機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品</masterLabel>
+            <translation><!-- 製品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品</masterLabel>
+            <translation><!-- 部品 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if there are any replacement products defined for this product. Set automatically by Manage Replacements feature --></help>
+        <label><!-- Replacement Available? --></label>
+        <name>SVMXC__Replacement_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Batch/Lot Tracking --></label>
+        <name>SVMXC__SM_Enable_Batch_Lot_Tracking__c</name>
+    </fields>
+    <fields>
+        <help><!-- External System Unique ID --></help>
+        <label><!-- External Record ID --></label>
+        <name>SVMXC__SM_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>SVMXC__Select__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if this product is stockable. ServiceMax does not maintain inventory of non-stockable products. --></help>
+        <label><!-- Stockable --></label>
+        <name>SVMXC__Stockable__c</name>
+    </fields>
+    <fields>
+        <help><!-- If and how this product is tracked when sold to customers. Serialized products are tracked by unique serial numbers. Lot/Batch tracked items are identified by the batch or lot numbers. Non-tracked items do not have a lot or serial number. --></help>
+        <label><!-- Tracking --></label>
+        <name>SVMXC__Tracking__c</name>
+        <picklistValues>
+            <masterLabel>Lot/Batch Tracked</masterLabel>
+            <translation>ロット/バッチ追跡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Tracked</masterLabel>
+            <translation>非追跡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serialized</masterLabel>
+            <translation>シリアル化</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Unit of measure for this product --></help>
+        <label><!-- Unit of Measure --></label>
+        <name>SVMXC__Unit_Of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation>箱</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dozen</masterLabel>
+            <translation>ダース</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Each</masterLabel>
+            <translation>各</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallon</masterLabel>
+            <translation>ガロン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation>Kg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liter</masterLabel>
+            <translation>リットル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pounds</masterLabel>
+            <translation>ポンド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton</masterLabel>
+            <translation>トン</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 外部キー --></label>
+        <name>SVMX_PS_External_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>SMAX_PS_Product_Layout</layout>
+        <sections>
+            <label><!-- 在庫情報 --></label>
+            <section>在庫情報</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- SVMX Product --></label>
+        <name>SMAX_PS_Product</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- SAP管理の商品をSAPにて新規登録ください。 --></errorMessage>
+        <name>SMAX_PS_New_Product_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP管理の商品をSAPにて新規登録ください。 --></errorMessage>
+        <name>SMAX_PS_New_Product_Validation_BkUp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP管理の商品なのでSAPにて編集ください。 --></errorMessage>
+        <name>SMAX_PS_Product_Mastered_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP管理の商品なのでSAPにて編集ください。 --></errorMessage>
+        <name>SMAX_PS_Product_Mastered_Validation_BkUp</name>
+    </validationRules>
+</CustomObjectTranslation>

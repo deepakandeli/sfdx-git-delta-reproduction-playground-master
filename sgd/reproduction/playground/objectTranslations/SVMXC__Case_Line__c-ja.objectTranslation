@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ケース対象製品</value>
+    </caseValues>
+    <fields>
+        <label><!-- SMAX_PS_Account --></label>
+        <name>SMAX_PS_Account__c</name>
+        <relationshipLabel><!-- ケース対象製品 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ケースレコードタイプ --></label>
+        <name>SMAX_PS_Case_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- 開始日時 --></label>
+        <name>SMAX_PS_Case_Start_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ケース状況 --></label>
+        <name>SMAX_PS_Case_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- 件名 --></label>
+        <name>SMAX_PS_Case_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- 見積表示テキスト --></label>
+        <name>SMAX_PS_Dislay_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザ --></label>
+        <name>SMAX_PS_IP_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- 設置場所 --></label>
+        <name>SMAX_PS_IP_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- HGS No. --></label>
+        <name>SMAX_PS_IP_SerialNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ベンチ --></label>
+        <name>SMAX_PS_IP_SubLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- PLC --></label>
+        <name>SMAX_PS_Product_PLC__c</name>
+    </fields>
+    <fields>
+        <label><!-- 作業指示 --></label>
+        <name>SMAX_PS_Work_Order__c</name>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ケース</label>
+        <name>SVMXC__Case__c</name>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Problem Description --></label>
+        <name>SVMXC__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entitled Exchange Type --></label>
+        <name>SVMXC__Entitled_Exchange_Type__c</name>
+        <picklistValues>
+            <masterLabel>Advance Exchange</masterLabel>
+            <translation>優先交換</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Exchange</masterLabel>
+            <translation>返品交換</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Entitlement History --></label>
+        <name>SVMXC__Entitlement_History__c</name>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Entitlement Notes --></label>
+        <name>SVMXC__Entitlement_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entitlement Status --></label>
+        <name>SVMXC__Entitlement_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation>契約</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Available</masterLabel>
+            <translation>使用できません</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty</masterLabel>
+            <translation>保証</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Installed Product</label>
+        <name>SVMXC__Installed_Product__c</name>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Line Status --></label>
+        <name>SVMXC__Line_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>キャンセル済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>未完了</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>設置場所</label>
+        <name>SVMXC__Location__c</name>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>SVMXC__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Text --></label>
+        <name>SVMXC__Product_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>SVMXC__Product__c</name>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>SVMXC__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Route Card --></label>
+        <name>SVMXC__Route_Card__c</name>
+        <relationshipLabel>ケース対象製品</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>SVMXC__Serial_Number_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract End Date --></label>
+        <name>SVMXC__Service_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract Exchange Type --></label>
+        <name>SVMXC__Service_Contract_Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract Line --></label>
+        <name>SVMXC__Service_Contract_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract Start Date --></label>
+        <name>SVMXC__Service_Contract_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract --></label>
+        <name>SVMXC__Service_Contract__c</name>
+    </fields>
+    <fields>
+        <label>特記事項</label>
+        <name>SVMXC__Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty End Date --></label>
+        <name>SVMXC__Warranty_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Exchange Type --></label>
+        <name>SVMXC__Warranty_Exchange_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Start Date --></label>
+        <name>SVMXC__Warranty_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty --></label>
+        <name>SVMXC__Warranty__c</name>
+    </fields>
+    <nameFieldLabel>レコード番号</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- 完了・失注ケースを変更できません。 --></errorMessage>
+        <name>SMAX_PS_Check_Close_Case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Installed Productもしくは製品を設定ください。 --></errorMessage>
+        <name>SMAX_PS_Required_IP_or_Product</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ケース”取引先名”に関連しているInstalled Productのみ設定してください。 --></errorMessage>
+        <name>SMAX_PS_Validate_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Installed Productの製品を設定ください。 --></errorMessage>
+        <name>SMAX_PS_Validate_Product</name>
+    </validationRules>
+</CustomObjectTranslation>

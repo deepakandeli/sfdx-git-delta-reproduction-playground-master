@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ディスパッチャー</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label>ディスパッチャー</label>
+        <name>SVMXC__Dispatcher__c</name>
+        <relationshipLabel>ディスパッチャー</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>SVMXC__Select__c</name>
+    </fields>
+    <fields>
+        <label>Service Station</label>
+        <name>SVMXC__Service_Team__c</name>
+        <relationshipLabel>ディスパッチャー</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Territory</label>
+        <name>SVMXC__Territory__c</name>
+        <relationshipLabel>ディスパッチャー</relationshipLabel>
+    </fields>
+    <nameFieldLabel>レコード番号</nameFieldLabel>
+</CustomObjectTranslation>

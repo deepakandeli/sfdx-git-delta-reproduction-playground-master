@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>SMAX_PS_ERP_Product_Price_Validation</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND
+(
+NOT(ISNULL(Product2.SMAX_PS_SAP_MaterialCd__c)),
+NOT(ISBLANK(Product2.SMAX_PS_SAP_MaterialCd__c)),
+Product2.RecordType.DeveloperName = &apos;SMAX_PS_HTS_Product&apos;,
+OR
+(
+$Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+$Profile.Name &lt;&gt; &apos;システム管理者(ベンダー)&apos;
+),
+ISCHANGED(UnitPrice)
+)</errorConditionFormula>
+        <errorMessage>You cannot change the price for this Product.</errorMessage>
+    </validationRules>
+</CustomObject>

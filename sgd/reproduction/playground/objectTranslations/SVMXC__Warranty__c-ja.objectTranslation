@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>製品保証</value>
+    </caseValues>
+    <fields>
+        <help><!-- Flag indicates if all products involved in the repair will be covered by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- All Products Covered --></label>
+        <name>SVMXC__All_Products_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if all services performed will be covered by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- All Services Covered --></label>
+        <name>SVMXC__All_Services_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date on which expenses coverage ends --></help>
+        <label><!-- End Date Expenses Covered --></label>
+        <name>SVMXC__End_Date_Expenses_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date on which material coverage ends --></help>
+        <label><!-- End Date Material Covered --></label>
+        <name>SVMXC__End_Date_Material_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date on which labor coverage ends --></help>
+        <label><!-- End Date Time Covered --></label>
+        <name>SVMXC__End_Date_Time_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Warranty end date --></help>
+        <label><!-- End Date --></label>
+        <name>SVMXC__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange type --></label>
+        <name>SVMXC__Exchange_type__c</name>
+        <picklistValues>
+            <masterLabel>Advance Exchange</masterLabel>
+            <translation>優先交換</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Exchange</masterLabel>
+            <translation>返品交換</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Define any exceptions specifically applicable to this installed product --></help>
+        <label><!-- Exclusions --></label>
+        <name>SVMXC__Exclusions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Percentage of other expenses covered by the warranty --></help>
+        <label><!-- Expenses % Covered --></label>
+        <name>SVMXC__Expenses_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the installed product for which this warranty is applicable. Is a lookup to an existing installed product record in ServiceMax --></help>
+        <label><!-- Installed Product --></label>
+        <name>SVMXC__Installed_Product__c</name>
+        <relationshipLabel><!-- Product Warranty --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if an invoice is always raised at the end of service delivery. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- Invoice Required --></label>
+        <name>SVMXC__Invoice_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if customer is given a temporary replacement product when the covered product is under repair. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- Loaner Provided --></label>
+        <name>SVMXC__Loaner_Provided__c</name>
+    </fields>
+    <fields>
+        <help><!-- Percentage of material cost covered by the warranty --></help>
+        <label><!-- Material % Covered --></label>
+        <name>SVMXC__Material_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if customer is eligible for onsite repair when entitled by this warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- Onsite Repair --></label>
+        <name>SVMXC__Onsite_Repair__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if an RMA is always required or an RMA is implied when this warranty is used to entitle a customer. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- RMA Required --></label>
+        <name>SVMXC__RMA_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field to bind check box in List of Product Warranty Line records on Visualforce page with controller. --></help>
+        <label><!-- Select --></label>
+        <name>SVMXC__Select__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the warranty template used to create a warranty. Is a lookup to an existing warranty template record --></help>
+        <label><!-- Warranty Terms --></label>
+        <name>SVMXC__Service_Template__c</name>
+        <relationshipLabel><!-- Product Warranty --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if customer shipments are covered by the warranty. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- Shipment Allowed --></label>
+        <name>SVMXC__Shipment_Allowed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Warranty start date --></help>
+        <label><!-- Start Date --></label>
+        <name>SVMXC__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Percentage of labor cost covered by the warranty --></help>
+        <label><!-- Time % Covered --></label>
+        <name>SVMXC__Time_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if this warranty is transferable to other products under special circumstances. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- Transferable --></label>
+        <name>SVMXC__Transferable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel % Covered --></label>
+        <name>SVMXC__Travel_Covered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if the customer is authorized to walk into a service center for service. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- Walk-in Allowed --></label>
+        <name>SVMXC__Walk_in_Allowed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weeks to End --></label>
+        <name>SVMXC__Weeks_to_End__c</name>
+    </fields>
+    <nameFieldLabel>保証ID</nameFieldLabel>
+    <webLinks>
+        <label><!-- New_Product_Warranty --></label>
+        <name>SVMXC__New_Product_Warranty</name>
+    </webLinks>
+</CustomObjectTranslation>

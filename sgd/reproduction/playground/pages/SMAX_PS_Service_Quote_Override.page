@@ -1,0 +1,9 @@
+<apex:page standardController="SVMXC__Quote__c">
+  <!-- Begin Default Content REMOVE THIS -->
+  <Body style="font-size:20px; background-color:white">
+   <p>It is not available to create Service Quote from this "New" Button. Please process from the SFM link on Case.</p>
+   <p>サービス見積をこのボタンから作成することはできません。ケースのService Flow Wizardにある「編集」から作成してください。</p>
+   </Body>
+
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

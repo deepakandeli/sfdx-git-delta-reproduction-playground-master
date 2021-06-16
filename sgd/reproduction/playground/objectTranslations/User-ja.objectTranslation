@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- 営業所 --></label>
+        <name>EigyoGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業チーム --></label>
+        <name>EigyoTeam__c</name>
+    </fields>
+    <fields>
+        <label><!-- 私のメールtoSalesforce --></label>
+        <name>My_mail_to_Salesforce__c</name>
+    </fields>
+    <fields>
+        <label><!-- 承認者フラグ --></label>
+        <name>SMAX_PS_ApproverFlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- 従業員番号 --></label>
+        <name>SMAX_PS_EmployeeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- HORNET ID --></label>
+        <name>SMAX_PS_HornetId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceMax IP Tree Fields --></label>
+        <name>SMAX_PS_IP_Tree_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Logged In User --></label>
+        <name>SMAX_PS_Is_Logged_In_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- ローカル氏名 --></label>
+        <name>SMAX_PS_Local_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAPライセンス保持者 --></label>
+        <name>SMAX_PS_SAPLicense__c</name>
+    </fields>
+    <fields>
+        <label><!-- プラント --></label>
+        <name>SMAX_PS_SAP_Plant__c</name>
+        <picklistValues>
+            <masterLabel>1040: HTS</masterLabel>
+            <translation><!-- 1040: HTS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 営業Gr. --></label>
+        <name>SMAX_PS_SAP_SalesGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業所 --></label>
+        <name>SMAX_PS_SAP_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販売組織 --></label>
+        <name>SMAX_PS_SAP_SalesOrg__c</name>
+    </fields>
+    <fields>
+        <label><!-- 作業区 --></label>
+        <name>SMAX_PS_SAP_WorkCenter__c</name>
+        <picklistValues>
+            <masterLabel>ATS IS</masterLabel>
+            <translation><!-- ATS IS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE つくばSS</masterLabel>
+            <translation><!-- ATS PE つくばSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 三重SS</masterLabel>
+            <translation><!-- ATS PE 三重SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 九州SS</masterLabel>
+            <translation><!-- ATS PE 九州SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 京都SS</masterLabel>
+            <translation><!-- ATS PE 京都SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 兵庫SS</masterLabel>
+            <translation><!-- ATS PE 兵庫SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 北海道SS</masterLabel>
+            <translation><!-- ATS PE 北海道SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 北陸SS</masterLabel>
+            <translation><!-- ATS PE 北陸SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 千葉SS</masterLabel>
+            <translation><!-- ATS PE 千葉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 名古屋SS</masterLabel>
+            <translation><!-- ATS PE 名古屋SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 四国SS</masterLabel>
+            <translation><!-- ATS PE 四国SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 埼玉SS</masterLabel>
+            <translation><!-- ATS PE 埼玉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 大分SS</masterLabel>
+            <translation><!-- ATS PE 大分SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 大阪SS</masterLabel>
+            <translation><!-- ATS PE 大阪SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 富士SS</masterLabel>
+            <translation><!-- ATS PE 富士SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 山口SS</masterLabel>
+            <translation><!-- ATS PE 山口SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 岡山SS</masterLabel>
+            <translation><!-- ATS PE 岡山SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 広島SS</masterLabel>
+            <translation><!-- ATS PE 広島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 東京SS</masterLabel>
+            <translation><!-- ATS PE 東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 東北SS</masterLabel>
+            <translation><!-- ATS PE 東北SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 東海SS</masterLabel>
+            <translation><!-- ATS PE 東海SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 栃木SS</masterLabel>
+            <translation><!-- ATS PE 栃木SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 横浜SS</masterLabel>
+            <translation><!-- ATS PE 横浜SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 浜松SS</masterLabel>
+            <translation><!-- ATS PE 浜松SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 熊本SS</masterLabel>
+            <translation><!-- ATS PE 熊本SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 福島SS</masterLabel>
+            <translation><!-- ATS PE 福島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 西東京SS</masterLabel>
+            <translation><!-- ATS PE 西東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS PE 鹿島SS</masterLabel>
+            <translation><!-- ATS PE 鹿島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS つくばSS</masterLabel>
+            <translation><!-- ATS つくばSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 三重SS</masterLabel>
+            <translation><!-- ATS 三重SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 九州SS</masterLabel>
+            <translation><!-- ATS 九州SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 京都SS</masterLabel>
+            <translation><!-- ATS 京都SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 兵庫SS</masterLabel>
+            <translation><!-- ATS 兵庫SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 北海道SS</masterLabel>
+            <translation><!-- ATS 北海道SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 北陸SS</masterLabel>
+            <translation><!-- ATS 北陸SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 千葉SS</masterLabel>
+            <translation><!-- ATS 千葉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 名古屋SS</masterLabel>
+            <translation><!-- ATS 名古屋SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 四国SS</masterLabel>
+            <translation><!-- ATS 四国SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 埼玉SS</masterLabel>
+            <translation><!-- ATS 埼玉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 大分SS</masterLabel>
+            <translation><!-- ATS 大分SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 大阪SS</masterLabel>
+            <translation><!-- ATS 大阪SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 富士SS</masterLabel>
+            <translation><!-- ATS 富士SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 山口SS</masterLabel>
+            <translation><!-- ATS 山口SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 岡山SS</masterLabel>
+            <translation><!-- ATS 岡山SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 広島SS</masterLabel>
+            <translation><!-- ATS 広島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 東京SS</masterLabel>
+            <translation><!-- ATS 東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 東北SS</masterLabel>
+            <translation><!-- ATS 東北SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 東海SS</masterLabel>
+            <translation><!-- ATS 東海SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 栃木SS</masterLabel>
+            <translation><!-- ATS 栃木SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 校正</masterLabel>
+            <translation><!-- ATS 校正 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 横浜SS</masterLabel>
+            <translation><!-- ATS 横浜SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 浜松SS</masterLabel>
+            <translation><!-- ATS 浜松SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 熊本SS</masterLabel>
+            <translation><!-- ATS 熊本SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 福島SS</masterLabel>
+            <translation><!-- ATS 福島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 西東京SS</masterLabel>
+            <translation><!-- ATS 西東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 返送品修理</masterLabel>
+            <translation><!-- ATS 返送品修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 阿蘇リペア</masterLabel>
+            <translation><!-- ATS 阿蘇リペア --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATS 鹿島SS</masterLabel>
+            <translation><!-- ATS 鹿島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HITチーム</masterLabel>
+            <translation><!-- HITチーム --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMS推進</masterLabel>
+            <translation><!-- IMS推進 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISチーム</masterLabel>
+            <translation><!-- ISチーム --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME IS</masterLabel>
+            <translation><!-- ME IS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME つくばSS</masterLabel>
+            <translation><!-- ME つくばSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 三重SS</masterLabel>
+            <translation><!-- ME 三重SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 九州SS</masterLabel>
+            <translation><!-- ME 九州SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 京都SS</masterLabel>
+            <translation><!-- ME 京都SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 兵庫SS</masterLabel>
+            <translation><!-- ME 兵庫SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 北海道SS</masterLabel>
+            <translation><!-- ME 北海道SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 北陸SS</masterLabel>
+            <translation><!-- ME 北陸SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 千葉SS</masterLabel>
+            <translation><!-- ME 千葉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 名古屋SS</masterLabel>
+            <translation><!-- ME 名古屋SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 四国SS</masterLabel>
+            <translation><!-- ME 四国SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 埼玉SS</masterLabel>
+            <translation><!-- ME 埼玉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 大分SS</masterLabel>
+            <translation><!-- ME 大分SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 大阪SS</masterLabel>
+            <translation><!-- ME 大阪SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 富士SS</masterLabel>
+            <translation><!-- ME 富士SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 山口SS</masterLabel>
+            <translation><!-- ME 山口SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 岡山SS</masterLabel>
+            <translation><!-- ME 岡山SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 広島SS</masterLabel>
+            <translation><!-- ME 広島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 東京SS</masterLabel>
+            <translation><!-- ME 東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 東北SS</masterLabel>
+            <translation><!-- ME 東北SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 東海SS</masterLabel>
+            <translation><!-- ME 東海SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 栃木SS</masterLabel>
+            <translation><!-- ME 栃木SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 校正</masterLabel>
+            <translation><!-- ME 校正 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 横浜SS</masterLabel>
+            <translation><!-- ME 横浜SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 浜松SS</masterLabel>
+            <translation><!-- ME 浜松SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 熊本SS</masterLabel>
+            <translation><!-- ME 熊本SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 福島SS</masterLabel>
+            <translation><!-- ME 福島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 西東京SS</masterLabel>
+            <translation><!-- ME 西東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 返送品修理</masterLabel>
+            <translation><!-- ME 返送品修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 阿蘇リペア</masterLabel>
+            <translation><!-- ME 阿蘇リペア --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME 鹿島SS</masterLabel>
+            <translation><!-- ME 鹿島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  つくばSS</masterLabel>
+            <translation><!-- P&amp;E  つくばSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  三重SS</masterLabel>
+            <translation><!-- P&amp;E  三重SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  九州SS</masterLabel>
+            <translation><!-- P&amp;E  九州SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  京都SS</masterLabel>
+            <translation><!-- P&amp;E  京都SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  兵庫SS</masterLabel>
+            <translation><!-- P&amp;E  兵庫SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  北海道SS</masterLabel>
+            <translation><!-- P&amp;E  北海道SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  北陸SS</masterLabel>
+            <translation><!-- P&amp;E  北陸SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  千葉SS</masterLabel>
+            <translation><!-- P&amp;E  千葉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  名古屋SS</masterLabel>
+            <translation><!-- P&amp;E  名古屋SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  四国SS</masterLabel>
+            <translation><!-- P&amp;E  四国SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  埼玉SS</masterLabel>
+            <translation><!-- P&amp;E  埼玉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  大分SS</masterLabel>
+            <translation><!-- P&amp;E  大分SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  大阪SS</masterLabel>
+            <translation><!-- P&amp;E  大阪SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  富士SS</masterLabel>
+            <translation><!-- P&amp;E  富士SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  山口SS</masterLabel>
+            <translation><!-- P&amp;E  山口SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  岡山SS</masterLabel>
+            <translation><!-- P&amp;E  岡山SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  広島SS</masterLabel>
+            <translation><!-- P&amp;E  広島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  東京SS</masterLabel>
+            <translation><!-- P&amp;E  東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  東北SS</masterLabel>
+            <translation><!-- P&amp;E  東北SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  東海SS</masterLabel>
+            <translation><!-- P&amp;E  東海SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  栃木SS</masterLabel>
+            <translation><!-- P&amp;E  栃木SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  横浜SS</masterLabel>
+            <translation><!-- P&amp;E  横浜SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  浜松SS</masterLabel>
+            <translation><!-- P&amp;E  浜松SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  熊本SS</masterLabel>
+            <translation><!-- P&amp;E  熊本SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  福島SS</masterLabel>
+            <translation><!-- P&amp;E  福島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  西東京SS</masterLabel>
+            <translation><!-- P&amp;E  西東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E  鹿島SS</masterLabel>
+            <translation><!-- P&amp;E  鹿島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E IS</masterLabel>
+            <translation><!-- P&amp;E IS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E 校正</masterLabel>
+            <translation><!-- P&amp;E 校正 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E 返送品修理</masterLabel>
+            <translation><!-- P&amp;E 返送品修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;E 阿蘇リペア</masterLabel>
+            <translation><!-- P&amp;E 阿蘇リペア --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  つくばSS</masterLabel>
+            <translation><!-- SCI  つくばSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  三重SS</masterLabel>
+            <translation><!-- SCI  三重SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  九州SS</masterLabel>
+            <translation><!-- SCI  九州SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  京都SS</masterLabel>
+            <translation><!-- SCI  京都SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  兵庫SS</masterLabel>
+            <translation><!-- SCI  兵庫SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  北海道SS</masterLabel>
+            <translation><!-- SCI  北海道SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  北陸SS</masterLabel>
+            <translation><!-- SCI  北陸SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  千葉SS</masterLabel>
+            <translation><!-- SCI  千葉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  名古屋SS</masterLabel>
+            <translation><!-- SCI  名古屋SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  四国SS</masterLabel>
+            <translation><!-- SCI  四国SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  埼玉SS</masterLabel>
+            <translation><!-- SCI  埼玉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  大分SS</masterLabel>
+            <translation><!-- SCI  大分SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  大阪SS</masterLabel>
+            <translation><!-- SCI  大阪SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  富士SS</masterLabel>
+            <translation><!-- SCI  富士SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  山口SS</masterLabel>
+            <translation><!-- SCI  山口SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  岡山SS</masterLabel>
+            <translation><!-- SCI  岡山SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  広島SS</masterLabel>
+            <translation><!-- SCI  広島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  東京SS</masterLabel>
+            <translation><!-- SCI  東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  東北SS</masterLabel>
+            <translation><!-- SCI  東北SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  東海SS</masterLabel>
+            <translation><!-- SCI  東海SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  栃木SS</masterLabel>
+            <translation><!-- SCI  栃木SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  横浜SS</masterLabel>
+            <translation><!-- SCI  横浜SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  浜松SS</masterLabel>
+            <translation><!-- SCI  浜松SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  熊本SS</masterLabel>
+            <translation><!-- SCI  熊本SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  福島SS</masterLabel>
+            <translation><!-- SCI  福島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  西東京SS</masterLabel>
+            <translation><!-- SCI  西東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI  鹿島SS</masterLabel>
+            <translation><!-- SCI  鹿島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI IS</masterLabel>
+            <translation><!-- SCI IS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI 校正</masterLabel>
+            <translation><!-- SCI 校正 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI 返送品修理</masterLabel>
+            <translation><!-- SCI 返送品修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCI 阿蘇リペア</masterLabel>
+            <translation><!-- SCI 阿蘇リペア --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Support　ME</masterLabel>
+            <translation><!-- Technical Support　ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing</masterLabel>
+            <translation><!-- Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービス品質</masterLabel>
+            <translation><!-- サービス品質 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービス本部(間接)</masterLabel>
+            <translation><!-- サービス本部(間接) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>中部日本サービス(間接)</masterLabel>
+            <translation><!-- 中部日本サービス(間接) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>企画チーム</masterLabel>
+            <translation><!-- 企画チーム --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>分析</masterLabel>
+            <translation><!-- 分析 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>医用チーム</masterLabel>
+            <translation><!-- 医用チーム --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>医用チーム 熊本SS</masterLabel>
+            <translation><!-- 医用チーム 熊本SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 IS</masterLabel>
+            <translation><!-- 半導体 IS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 つくばSS</masterLabel>
+            <translation><!-- 半導体 つくばSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 三重SS</masterLabel>
+            <translation><!-- 半導体 三重SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 九州SS</masterLabel>
+            <translation><!-- 半導体 九州SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 京都SS</masterLabel>
+            <translation><!-- 半導体 京都SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 兵庫SS</masterLabel>
+            <translation><!-- 半導体 兵庫SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 北海道SS</masterLabel>
+            <translation><!-- 半導体 北海道SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 北陸SS</masterLabel>
+            <translation><!-- 半導体 北陸SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 千葉SS</masterLabel>
+            <translation><!-- 半導体 千葉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 名古屋SS</masterLabel>
+            <translation><!-- 半導体 名古屋SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 四国SS</masterLabel>
+            <translation><!-- 半導体 四国SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 埼玉SS</masterLabel>
+            <translation><!-- 半導体 埼玉SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 大分SS</masterLabel>
+            <translation><!-- 半導体 大分SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 大阪SS</masterLabel>
+            <translation><!-- 半導体 大阪SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 富士SS</masterLabel>
+            <translation><!-- 半導体 富士SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 山口SS</masterLabel>
+            <translation><!-- 半導体 山口SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 岡山SS</masterLabel>
+            <translation><!-- 半導体 岡山SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 広島SS</masterLabel>
+            <translation><!-- 半導体 広島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 東京SS</masterLabel>
+            <translation><!-- 半導体 東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 東北SS</masterLabel>
+            <translation><!-- 半導体 東北SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 東海SS</masterLabel>
+            <translation><!-- 半導体 東海SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 栃木SS</masterLabel>
+            <translation><!-- 半導体 栃木SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 校正</masterLabel>
+            <translation><!-- 半導体 校正 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 横浜SS</masterLabel>
+            <translation><!-- 半導体 横浜SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 浜松SS</masterLabel>
+            <translation><!-- 半導体 浜松SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 熊本SS</masterLabel>
+            <translation><!-- 半導体 熊本SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 福島SS</masterLabel>
+            <translation><!-- 半導体 福島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 西東京SS</masterLabel>
+            <translation><!-- 半導体 西東京SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 返送品修理</masterLabel>
+            <translation><!-- 半導体 返送品修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 阿蘇リペア</masterLabel>
+            <translation><!-- 半導体 阿蘇リペア --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体 鹿島SS</masterLabel>
+            <translation><!-- 半導体 鹿島SS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>半導体チーム</masterLabel>
+            <translation><!-- 半導体チーム --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>本社サービス(間接)</masterLabel>
+            <translation><!-- 本社サービス(間接) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>東日本サービス(間接)</masterLabel>
+            <translation><!-- 東日本サービス(間接) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>校正</masterLabel>
+            <translation><!-- 校正 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>校正＆環境分析チーム(間接)</masterLabel>
+            <translation><!-- 校正＆環境分析チーム(間接) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>西日本サービス(間接)</masterLabel>
+            <translation><!-- 西日本サービス(間接) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>返送品修理チーム</masterLabel>
+            <translation><!-- 返送品修理チーム --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Console Settings --></label>
+        <name>SVMXC__Dispatch_Console_Settings__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter this user&apos;s FaceTime login ID if available. This is used to make FaceTime calls in ServiceMax iPad Client. If this is left blank, user&apos;s phone number and email are used for the call. --></help>
+        <label><!-- FaceTime ID --></label>
+        <name>SVMXC__FaceTime_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to indicate if user is Super Dispatcher. --></help>
+        <label><!-- Is Super Dispatcher? --></label>
+        <name>SVMXC__Is_Super_Dispatcher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>SVMXC__Select__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceMax User --></label>
+        <name>SVMXC__ServiceMax_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販売組織1 --></label>
+        <name>SalesOrganize1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販売組織２ --></label>
+        <name>SalesOrganize2__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingAnonWebActivityList --></label>
+        <name>mkto_si__IsCachingAnonWebActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingBestBets --></label>
+        <name>mkto_si__IsCachingBestBets__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingEmailActivityList --></label>
+        <name>mkto_si__IsCachingEmailActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingGroupedWebActivityList --></label>
+        <name>mkto_si__IsCachingGroupedWebActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingInterestingMomentsList --></label>
+        <name>mkto_si__IsCachingInterestingMomentsList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingScoringList --></label>
+        <name>mkto_si__IsCachingScoringList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingStreamList --></label>
+        <name>mkto_si__IsCachingStreamList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingWatchList --></label>
+        <name>mkto_si__IsCachingWatchList__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCachingWebActivityList --></label>
+        <name>mkto_si__IsCachingWebActivityList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketo Sales Insight Welcome Counter --></label>
+        <name>mkto_si__Sales_Insight_Counter__c</name>
+    </fields>
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- HTS --></label>
+            <section>HTS</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

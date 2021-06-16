@@ -1,0 +1,6 @@
+<apex:page standardController="SVMXC__Service_Template__c">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>You cannot operate from this menu. Please process from the SFM screen.</h1>
+
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

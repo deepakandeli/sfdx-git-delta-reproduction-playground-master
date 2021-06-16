@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>サービス価格表</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>SVMXC__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a detailed description of this service pricebook. --></help>
+        <label><!-- Description --></label>
+        <name>SVMXC__Description__c</name>
+    </fields>
+    <layouts>
+        <layout>SVMX Service Pricebook - Standard</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Service Flow Wizard --></label>
+            <section>Service Flow Wizard</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Pricebook Layout</layout>
+        <sections>
+            <label>カスタム リンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>価格表名</nameFieldLabel>
+</CustomObjectTranslation>

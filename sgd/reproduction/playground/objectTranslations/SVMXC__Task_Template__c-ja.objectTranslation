@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>タスク テンプレート</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enter Description --></help>
+        <label><!-- Description --></label>
+        <name>SVMXC__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the task priority. --></help>
+        <label><!-- Priority --></label>
+        <name>SVMXC__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>SVMXC__Sequence__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the Task Template. --></help>
+        <label><!-- Work Order Purpose --></label>
+        <name>SVMXC__Task_Template__c</name>
+        <relationshipLabel><!-- Task Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Task Title --></help>
+        <label><!-- Task Title --></label>
+        <name>SVMXC__Task_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Template Name --></help>
+        <label><!-- Template Name --></label>
+        <name>SVMXC__Template_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the type of template. --></help>
+        <label><!-- Template Type --></label>
+        <name>SVMXC__Template_Type__c</name>
+        <picklistValues>
+            <masterLabel>Preventive Maintenance</masterLabel>
+            <translation>予防保守</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SMAX_PS_Task Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>レコード番号</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Tasks --></description>
+        <label><!-- Tasks --></label>
+        <name>SVMXC__Tasks</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Task Templates --></description>
+        <label><!-- Templates --></label>
+        <name>SVMXC__Templates</name>
+    </recordTypes>
+</CustomObjectTranslation>

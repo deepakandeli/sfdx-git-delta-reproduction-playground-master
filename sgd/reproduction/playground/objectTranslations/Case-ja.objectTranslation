@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>エンドユーザー名</value>
+        </caseValues>
+        <name>case_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>エンドユーザー責任者名</value>
+        </caseValues>
+        <name>case_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>エンドユーザー名</value>
+        </caseValues>
+        <name>web_company_case</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>メール</value>
+        </caseValues>
+        <name>web_email_case</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>氏名</value>
+        </caseValues>
+        <name>web_name_case</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>電話</value>
+        </caseValues>
+        <name>web_phone_case</name>
+    </fields>
+    <fields>
+        <label><!-- お問合せカテゴリ（電話） --></label>
+        <name>Category2__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービス関連</masterLabel>
+            <translation><!-- サービス関連 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>トラブル案件</masterLabel>
+            <translation><!-- トラブル案件 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>仕様確認</masterLabel>
+            <translation><!-- 仕様確認 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>使用方法</masterLabel>
+            <translation><!-- 使用方法 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>価格・納期問合せ</masterLabel>
+            <translation><!-- 価格・納期問合せ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>商流確認</masterLabel>
+            <translation><!-- 商流確認 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>引合案件</masterLabel>
+            <translation><!-- 引合案件 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品説明</masterLabel>
+            <translation><!-- 製品説明 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>資料要求</masterLabel>
+            <translation><!-- 資料要求 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- お問合せカテゴリ（Web） --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サンプル測定</masterLabel>
+            <translation><!-- サンプル測定 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品修理</masterLabel>
+            <translation><!-- 製品修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>見積依頼</masterLabel>
+            <translation><!-- 見積依頼 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>詳細説明</masterLabel>
+            <translation><!-- 詳細説明 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>資料請求</masterLabel>
+            <translation><!-- 資料請求 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>購入検討</masterLabel>
+            <translation><!-- 購入検討 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- お問合せ詳細 --></label>
+        <name>Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- 顧客ID --></label>
+        <name>LeadID__c</name>
+    </fields>
+    <fields>
+        <label><!-- 製品カテゴリ --></label>
+        <name>ProductCategory__c</name>
+        <picklistValues>
+            <masterLabel>CU</masterLabel>
+            <translation><!-- CU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DU</masterLabel>
+            <translation><!-- DU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC</masterLabel>
+            <translation><!-- EC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GR-300</masterLabel>
+            <translation><!-- GR-300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOR製品</masterLabel>
+            <translation><!-- HOR製品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IR</masterLabel>
+            <translation><!-- IR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LD/LW</masterLabel>
+            <translation><!-- LD/LW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LF-F</masterLabel>
+            <translation><!-- LF-F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LM/LM-W</masterLabel>
+            <translation><!-- LM/LM-W --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LV-F</masterLabel>
+            <translation><!-- LV-F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MF-C/F（CKD製品）</masterLabel>
+            <translation><!-- MF-C/F（CKD製品） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFC　その他</masterLabel>
+            <translation><!-- MFC　その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPGU</masterLabel>
+            <translation><!-- OPGU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAC</masterLabel>
+            <translation><!-- PAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCU</masterLabel>
+            <translation><!-- PCU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE</masterLabel>
+            <translation><!-- PE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PV</masterLabel>
+            <translation><!-- PV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RGA</masterLabel>
+            <translation><!-- RGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S48（メトロン製品）</masterLabel>
+            <translation><!-- S48（メトロン製品） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC-400</masterLabel>
+            <translation><!-- SEC-400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC-8000</masterLabel>
+            <translation><!-- SEC-8000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC-E</masterLabel>
+            <translation><!-- SEC-E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC-N100</masterLabel>
+            <translation><!-- SEC-N100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC-Z300</masterLabel>
+            <translation><!-- SEC-Z300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC-Z500X</masterLabel>
+            <translation><!-- SEC-Z500X --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEC-Z700X</masterLabel>
+            <translation><!-- SEC-Z700X --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF/VP</masterLabel>
+            <translation><!-- SF/VP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGD</masterLabel>
+            <translation><!-- SGD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UR-Z700</masterLabel>
+            <translation><!-- UR-Z700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VG</masterLabel>
+            <translation><!-- VG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VL/VL-S</masterLabel>
+            <translation><!-- VL/VL-S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>アクセサリ　その他</masterLabel>
+            <translation><!-- アクセサリ　その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>フローライン</masterLabel>
+            <translation><!-- フローライン --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>廃盤製品　その他</masterLabel>
+            <translation><!-- 廃盤製品　その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>液体気化製品　その他</masterLabel>
+            <translation><!-- 液体気化製品　その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>装置</masterLabel>
+            <translation><!-- 装置 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 関連ケース --></label>
+        <name>RelationCase__c</name>
+        <relationshipLabel><!-- ケース --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- コールバック希望日 --></label>
+        <name>SMAX_PS_CallBackRequestDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 依頼内容カテゴリ --></label>
+        <name>SMAX_PS_CaseCategory__c</name>
+        <picklistValues>
+            <masterLabel>AOP</masterLabel>
+            <translation><!-- AOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>アプリケーション問い合わせ</masterLabel>
+            <translation><!-- アプリケーション問い合わせ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>テスティング</masterLabel>
+            <translation><!-- テスティング --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>トラブル連絡</masterLabel>
+            <translation><!-- トラブル連絡 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>リプレース</masterLabel>
+            <translation><!-- リプレース --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>使用方法の問い合わせ</masterLabel>
+            <translation><!-- 使用方法の問い合わせ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>保守</masterLabel>
+            <translation><!-- 保守 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>分析</masterLabel>
+            <translation><!-- 分析 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>据付/設置工事</masterLabel>
+            <translation><!-- 据付/設置工事 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>撤去/移設</masterLabel>
+            <translation><!-- 撤去/移設 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>改造/バージョンアップ</masterLabel>
+            <translation><!-- 改造/バージョンアップ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>校正/認証(フィールド)</masterLabel>
+            <translation><!-- 校正/認証(フィールド) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>校正/認証(社内)</masterLabel>
+            <translation><!-- 校正/認証(社内) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>点検</masterLabel>
+            <translation><!-- 点検 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>社内修理</masterLabel>
+            <translation><!-- 社内修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品購入問い合わせ</masterLabel>
+            <translation><!-- 製品購入問い合わせ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>訪問修理</masterLabel>
+            <translation><!-- 訪問修理 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>試運転</masterLabel>
+            <translation><!-- 試運転 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>遡り作業</masterLabel>
+            <translation><!-- 遡り作業 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品問い合わせ</masterLabel>
+            <translation><!-- 部品問い合わせ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 発信元区分 --></label>
+        <name>SMAX_PS_CaseSourceCategory__c</name>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAT</masterLabel>
+            <translation><!-- HAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOR</masterLabel>
+            <translation><!-- HOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STEC</masterLabel>
+            <translation><!-- STEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エンジニア</masterLabel>
+            <translation><!-- エンジニア --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>エンドユーザ</masterLabel>
+            <translation><!-- エンドユーザ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>業務</masterLabel>
+            <translation><!-- 業務 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>販社</masterLabel>
+            <translation><!-- 販社 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ケース種別 --></label>
+        <name>SMAX_PS_Case_Type_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- 苦情判断 --></label>
+        <name>SMAX_PS_ComplaintJudge__c</name>
+    </fields>
+    <fields>
+        <label><!-- 苦情原因 --></label>
+        <name>SMAX_PS_ComplaintReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- エラーコード --></label>
+        <name>SMAX_PS_ErrorCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- 受注予定金額 --></label>
+        <name>SMAX_PS_EstimatedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- 名 --></label>
+        <name>SMAX_PS_FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- フォローアップ予定日 --></label>
+        <name>SMAX_PS_FollowupDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISシート発行 --></label>
+        <name>SMAX_PS_IS_Sheet__c</name>
+    </fields>
+    <fields>
+        <label><!-- 姓 --></label>
+        <name>SMAX_PS_LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 失注理由詳細 --></label>
+        <name>SMAX_PS_LostReasonTxt__c</name>
+    </fields>
+    <fields>
+        <label><!-- 失注理由 --></label>
+        <name>SMAX_PS_LostReason__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>予算</masterLabel>
+            <translation><!-- 予算 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>他決</masterLabel>
+            <translation><!-- 他決 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>納期</masterLabel>
+            <translation><!-- 納期 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>見送り</masterLabel>
+            <translation><!-- 見送り --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 自由記述 --></label>
+        <name>SMAX_PS_Mail_FreeText__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販社/代理店宛 --></label>
+        <name>SMAX_PS_Mail_to_Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザ宛 --></label>
+        <name>SMAX_PS_Mail_to_EndUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- HORIBA Gr.宛 --></label>
+        <name>SMAX_PS_Mail_to_HORIBAGr__c</name>
+    </fields>
+    <fields>
+        <label><!-- 内線 --></label>
+        <name>SMAX_PS_Naisen__c</name>
+    </fields>
+    <fields>
+        <label><!-- 受注予定日 --></label>
+        <name>SMAX_PS_OrderDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ﻿HTS支払条件 --></label>
+        <name>SMAX_PS_Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- 確度 --></label>
+        <name>SMAX_PS_Rank__c</name>
+        <picklistValues>
+            <masterLabel>A（確度90%以上）</masterLabel>
+            <translation><!-- A（確度90%以上） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B（確度80%以上）</masterLabel>
+            <translation><!-- B（確度80%以上） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C（確度60%以上）</masterLabel>
+            <translation><!-- C（確度60%以上） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D（確度50%以上）</masterLabel>
+            <translation><!-- D（確度50%以上） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E（確度40%以上）</masterLabel>
+            <translation><!-- E（確度40%以上） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F（確度20%以上）</masterLabel>
+            <translation><!-- F（確度20%以上） --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 営業Gr. --></label>
+        <name>SMAX_PS_SAP_SalesGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業所 --></label>
+        <name>SMAX_PS_SAP_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販売組織 --></label>
+        <name>SMAX_PS_SAP_SalesOrg__c</name>
+    </fields>
+    <fields>
+        <label><!-- セグメント --></label>
+        <name>SMAX_PS_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- 受注先担当者 - (販社) --></label>
+        <name>SMAX_PS_SoldTo_Contact__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 受注先 - (販社) --></label>
+        <name>SMAX_PS_SoldTo__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 開始日時 --></label>
+        <name>SMAX_PS_StartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- 対象製品カテゴリ --></label>
+        <name>SMAX_PS_TargetProductCategory__c</name>
+        <picklistValues>
+            <masterLabel>Other POC</masterLabel>
+            <translation><!-- Other POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System</masterLabel>
+            <translation><!-- System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>中型・大型血球(5DIFF)</masterLabel>
+            <translation><!-- 中型・大型血球(5DIFF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>小型血球(3DIFF)</masterLabel>
+            <translation><!-- 小型血球(3DIFF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>血糖</masterLabel>
+            <translation><!-- 血糖 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 対象製品詳細カテゴリ --></label>
+        <name>SMAX_PS_TargetProductDetailsCategory__c</name>
+        <picklistValues>
+            <masterLabel>PC異常</masterLabel>
+            <translation><!-- PC異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ソフトウェア異常</masterLabel>
+            <translation><!-- ソフトウェア異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>データベース異常</masterLabel>
+            <translation><!-- データベース異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マスタデータ異常</masterLabel>
+            <translation><!-- マスタデータ異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>周辺機器異常</masterLabel>
+            <translation><!-- 周辺機器異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>外観異常</masterLabel>
+            <translation><!-- 外観異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>流路系異常</masterLabel>
+            <translation><!-- 流路系異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>測定値異常</masterLabel>
+            <translation><!-- 測定値異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>試薬異常</masterLabel>
+            <translation><!-- 試薬異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>電気系異常</masterLabel>
+            <translation><!-- 電気系異常 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>駆動系異常</masterLabel>
+            <translation><!-- 駆動系異常 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 訪問希望日 --></label>
+        <name>SMAX_PS_VisitRequestDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 作業（売上）予定日 --></label>
+        <name>SMAX_PS_WorkDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time on which customer was initial responsed as per commitment in SLA. --></help>
+        <label><!-- Actual Initial Response --></label>
+        <name>SVMXC__Actual_Initial_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time on which customer was onsite responsed as per commitment in SLA. --></help>
+        <label><!-- Actual Onsite Response --></label>
+        <name>SVMXC__Actual_Onsite_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time on which customer was resolved as per commitment in SLA. --></help>
+        <label><!-- Actual Resolution --></label>
+        <name>SVMXC__Actual_Resolution__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time on which customer was restored as per commitment in SLA. --></help>
+        <label><!-- Actual Restoration --></label>
+        <name>SVMXC__Actual_Restoration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Entitlement Status --></label>
+        <name>SVMXC__Auto_Entitlement_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>成功</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BW Date --></label>
+        <name>SVMXC__BW_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- BW Selected By --></label>
+        <name>SVMXC__BW_Selected_By__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BW Selected On --></label>
+        <name>SVMXC__BW_Selected_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- BW Slots Before --></label>
+        <name>SVMXC__BW_Slots_Before__c</name>
+    </fields>
+    <fields>
+        <label><!-- BW Territory --></label>
+        <name>SVMXC__BW_Territory__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BW Time Zone --></label>
+        <name>SVMXC__BW_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Billing Type --></help>
+        <label><!-- Billing Type --></label>
+        <name>SVMXC__Billing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation>契約</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Courtesy</masterLabel>
+            <translation>無料サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empowerment</masterLabel>
+            <translation>権限委譲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan</masterLabel>
+            <translation>貸付</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation>支払済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty</masterLabel>
+            <translation>保証</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Booking Window --></label>
+        <name>SVMXC__Booking_Window__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Clock Paused Forever --></label>
+        <name>SVMXC__Clock_Paused_Forever__c</name>
+    </fields>
+    <fields>
+        <help><!-- “City” part of the physical location address of Component SN --></help>
+        <label><!-- Component SN City --></label>
+        <name>SVMXC__Component_City__c</name>
+    </fields>
+    <fields>
+        <help><!-- “Country” part of the physical location address of Component SN --></help>
+        <label><!-- Component SN Country --></label>
+        <name>SVMXC__Component_Country__c</name>
+    </fields>
+    <fields>
+        <help><!-- “State/Province” part of the physical location address of Component SN --></help>
+        <label><!-- Component SN State --></label>
+        <name>SVMXC__Component_State__c</name>
+    </fields>
+    <fields>
+        <help><!-- “Street” part of the physical location address of Component SN --></help>
+        <label><!-- Component SN Street --></label>
+        <name>SVMXC__Component_Street__c</name>
+    </fields>
+    <fields>
+        <help><!-- “Zip/Postal Code” part of the physical location address of Component SN --></help>
+        <label><!-- Component SN Zip --></label>
+        <name>SVMXC__Component_Zip__c</name>
+    </fields>
+    <fields>
+        <help><!-- Serial number of the component for which the customer is seeking support. Is a lookup to an existing installed product record in ServiceMax --></help>
+        <label><!-- Component SN --></label>
+        <name>SVMXC__Component__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Additional information entered in Case during customer entitlement --></help>
+        <label><!-- Entitlement Notes --></label>
+        <name>SVMXC__Entitlement_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is for internal use,  and this is set to &apos;Auto&apos; by Auto-Entitlement or set to &apos;Interactive&apos; in interactive entitlement. --></help>
+        <label><!-- Entitlement Type --></label>
+        <name>SVMXC__Entitlement_Type__c</name>
+        <picklistValues>
+            <masterLabel>AUTO</masterLabel>
+            <translation>自動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERACTIVE</masterLabel>
+            <translation>対話型</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Response Customer By --></label>
+        <name>SVMXC__Initial_Response_Customer_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time by which customer should be initial responsed as per internal commitment in SLA. --></help>
+        <label><!-- Initial Response Internal By --></label>
+        <name>SVMXC__Initial_Response_Internal_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Entitlement Performed --></label>
+        <name>SVMXC__Is_Entitlement_Performed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Invoice Created --></label>
+        <name>SVMXC__Is_Invoice_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is PM Case --></label>
+        <name>SVMXC__Is_PM_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recalculate SLA --></label>
+        <name>SVMXC__Is_SLA_Calculated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Service Covered --></label>
+        <name>SVMXC__Is_Service_Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Onsite Response Customer By --></label>
+        <name>SVMXC__Onsite_Response_Customer_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time by which customer should be onsite responsed as per internal commitment in SLA. --></help>
+        <label><!-- Onsite Response Internal By --></label>
+        <name>SVMXC__Onsite_Response_Internal_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Maintenance Plan --></label>
+        <name>SVMXC__PM_Plan__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Perform Auto Entitlement --></label>
+        <name>SVMXC__Perform_Auto_Entitlement__c</name>
+    </fields>
+    <fields>
+        <help><!-- End time for the case to be scheduled. Calculated automatically based on booking window selection. --></help>
+        <label><!-- Preferred End Time --></label>
+        <name>SVMXC__Preferred_End_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Start time for the case to be scheduled. Calculated automatically based on booking window selection. --></help>
+        <label><!-- Preferred Start Time --></label>
+        <name>SVMXC__Preferred_Start_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose or enter the Product name for which the customer is seeking support. --></help>
+        <label><!-- Component Name --></label>
+        <name>SVMXC__Product__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proforma Invoice Amount --></label>
+        <name>SVMXC__Proforma_Invoice_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proforma Invoice --></label>
+        <name>SVMXC__Proforma_Invoice__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resolution Customer By --></label>
+        <name>SVMXC__Resolution_Customer_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time by which customer should be resolved as per internal commitment in SLA. --></help>
+        <label><!-- Resolution Internal By --></label>
+        <name>SVMXC__Resolution_Internal_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restoration Customer By --></label>
+        <name>SVMXC__Restoration_Customer_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/time by which customer should be restored as per internal commitment in SLA. --></help>
+        <label><!-- Restoration Internal By --></label>
+        <name>SVMXC__Restoration_Internal_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- SContract Business Hour --></label>
+        <name>SVMXC__SContract_Business_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Extension Minutes --></label>
+        <name>SVMXC__SLA_Clock_Extension_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Pause Days --></label>
+        <name>SVMXC__SLA_Clock_Pause_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Pause Hours --></label>
+        <name>SVMXC__SLA_Clock_Pause_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Pause Minutes --></label>
+        <name>SVMXC__SLA_Clock_Pause_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Pause Reason --></label>
+        <name>SVMXC__SLA_Clock_Pause_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Customer Not Available</masterLabel>
+            <translation>顧客不在</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Pause Restart Time --></label>
+        <name>SVMXC__SLA_Clock_Pause_Restart_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Pause Time --></label>
+        <name>SVMXC__SLA_Clock_Pause_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Clock Paused --></label>
+        <name>SVMXC__SLA_Clock_Paused__c</name>
+    </fields>
+    <fields>
+        <help><!-- Service Level the customer is entitled to by this contract. Is a lookup to an existing service level record. --></help>
+        <label><!-- SLA Terms --></label>
+        <name>SVMXC__SLA_Terms__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Date --></label>
+        <name>SVMXC__Scheduled_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the service contract. Is a lookup to an existing service contract in ServiceMax --></help>
+        <label><!-- Service/Maintenance Contract --></label>
+        <name>SVMXC__Service_Contract__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The customer location where the contact is reporting the problem or the location of the installed product. --></help>
+        <label>設置場所</label>
+        <name>SVMXC__Site__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Time taken to initial response as per commitment in SLA. --></help>
+        <label><!-- Time to Initial Response (in Minutes) --></label>
+        <name>SVMXC__Time_to_Initial_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time taken to onsite response as per commitment in SLA. --></help>
+        <label><!-- Time to Onsite Response (in Minutes) --></label>
+        <name>SVMXC__Time_to_Onsite_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time taken to resolve as per commitment in SLA. --></help>
+        <label><!-- Time to Resolve (in Minutes) --></label>
+        <name>SVMXC__Time_to_Resolve__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time taken to restore as per commitment in SLA. --></help>
+        <label><!-- Time to Restore (in Minutes) --></label>
+        <name>SVMXC__Time_to_Restore__c</name>
+    </fields>
+    <fields>
+        <help><!-- Serial number of the top-level installed product to which the component belongs. Is a lookup to an existing installed product record in ServiceMax. --></help>
+        <label><!-- Product/System --></label>
+        <name>SVMXC__Top_Level__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Product Warranty --></help>
+        <label><!-- Warranty --></label>
+        <name>SVMXC__Warranty__c</name>
+        <relationshipLabel>ケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 営業担当者 --></label>
+        <name>SalesUser__c</name>
+        <relationshipLabel><!-- ケース (営業担当者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 住所 --></label>
+        <name>SuppliedAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- 都道府県 --></label>
+        <name>SuppliedCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- 郵便番号 --></label>
+        <name>SuppliedCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- 部署 --></label>
+        <name>Suppliedsection__c</name>
+    </fields>
+    <layouts>
+        <layout>SMAX PS Case Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SMAX_PS_Case Page Layout Service case</layout>
+        <sections>
+            <label><!-- ケース --></label>
+            <section>ケース</section>
+        </sections>
+        <sections>
+            <label><!-- メール作成・ISシート発行 --></label>
+            <section>メール作成・ISシート発行</section>
+        </sections>
+        <sections>
+            <label><!-- 医用情報 --></label>
+            <section>医用情報</section>
+        </sections>
+        <sections>
+            <label><!-- 更新情報 --></label>
+            <section>更新情報</section>
+        </sections>
+        <sections>
+            <label><!-- 詳細内容 --></label>
+            <section>詳細内容</section>
+        </sections>
+        <sections>
+            <label><!-- 顧客情報 --></label>
+            <section>顧客情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SMAX_PS_Case Page Layout Service opportunity</layout>
+        <sections>
+            <label><!-- ケース --></label>
+            <section>ケース</section>
+        </sections>
+        <sections>
+            <label><!-- メール作成・ISシート発行 --></label>
+            <section>メール作成・ISシート発行</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ内容 --></label>
+            <section>問い合わせ内容</section>
+        </sections>
+        <sections>
+            <label><!-- 失注理由 --></label>
+            <section>失注理由</section>
+        </sections>
+        <sections>
+            <label><!-- 引合管理内容 --></label>
+            <section>引合管理内容</section>
+        </sections>
+        <sections>
+            <label><!-- 更新情報 --></label>
+            <section>更新情報</section>
+        </sections>
+        <sections>
+            <label><!-- 顧客情報 --></label>
+            <section>顧客情報</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- ｽﾃｰﾀｽ変更 --></label>
+        <name>SMAX_PS_Change_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新規行動 --></label>
+        <name>SMAX_PS_Create_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新規ToDo --></label>
+        <name>SMAX_PS_Create_Task</name>
+    </quickActions>
+    <recordTypes>
+        <label>問合せケース</label>
+        <name>SMAX_PS_ServiceCase</name>
+    </recordTypes>
+    <recordTypes>
+        <label>引合ケース</label>
+        <name>SMAX_PS_ServiceOpportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 完了・失注ケースを変更できません。 --></errorMessage>
+        <name>SMAX_PS_Check_Close_Case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP注文種設定をしている得意先を受注先 - (販社)に設定ください。 --></errorMessage>
+        <name>SMAX_PS_Check_SoldTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case取引先の第1階層の設置場所を選択ください。 --></errorMessage>
+        <name>SMAX_PS_Location_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 取引先もしくは会社名を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Required_Account_or_WebCompany</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 苦情判断を選択してください。 --></errorMessage>
+        <name>SMAX_PS_Required_ComplaintJudge</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 苦情原因を選択してください。 --></errorMessage>
+        <name>SMAX_PS_Required_ComplaintReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 取引先責任者もしくは氏名を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Required_Contact_or_Last_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- メールもしくは電話番号を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Required_Email_or_Phone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 失注の場合、失注理由と詳細を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Required_LostReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 住所を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Required_Supplied_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 対象製品カテゴリを選択してください。 --></errorMessage>
+        <name>SMAX_PS_Required_TargetProductCategory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 対象製品詳細カテゴリを選択してください。 --></errorMessage>
+        <name>SMAX_PS_Required_TargetProductDetails</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 日付入力に不正があります。受注予定日&gt;フォローアップ予定日＞開始日時になるように入力してください。 --></errorMessage>
+        <name>SMAX_PS_Validate_Opp_Dates</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Booking_Window --></label>
+        <name>SVMXC__Booking_Window</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Entitlement --></label>
+        <name>SVMXC__Entitlement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_RMA --></label>
+        <name>SVMXC__New_RMA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Service_Order --></label>
+        <name>SVMXC__New_Service_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Shipment --></label>
+        <name>SVMXC__New_Shipment</name>
+    </webLinks>
+</CustomObjectTranslation>

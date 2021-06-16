@@ -1,0 +1,13 @@
+<apex:page standardController="SVMXC__Case_Line__c">
+  <!-- Begin Default Content REMOVE THIS -->
+  
+  
+   <Body style="font-size:20px; background-color:white">
+   <p>It is not available to create Case Line from this "New" Button. Please process from the SFM link on Case.</p>
+   <p> ケース対象製品をこのボタンから作成することはできません。ケースのService Flow Wizardにある「 編集」から作成してください。</p>
+   </Body>
+   
+  <!--<apex:outputText value="It is not available to create Installed Product from this New Button. Please process from the SFM link on the Account" style="white-space: pre;font-size:20px;" escape="false"/><br/>
+  <apex:outputText value="Installed Productをこのボタンから作成することはできません。取引先のService Flow Wizardにある「Installed Productを作成」から作成してください。" style="white-space: pre;font-size:20px;" escape="false"/>-->
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

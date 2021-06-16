@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Territory</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- セグメント --></label>
+        <name>SMAX_PS_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>SVMXC__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Driving Time --></label>
+        <name>SVMXC__Average_Driving_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Speed --></label>
+        <name>SVMXC__Average_Speed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Break Hours --></label>
+        <name>SVMXC__Break_Hours__c</name>
+        <relationshipLabel><!-- Territory (休憩時間) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>SVMXC__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Cost --></label>
+        <name>SVMXC__Fixed_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Daily Hours --></label>
+        <name>SVMXC__Max_Daily_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Distance --></label>
+        <name>SVMXC__Max_Distance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Hours --></label>
+        <name>SVMXC__Max_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mode Of Travel --></label>
+        <name>SVMXC__Mode_Of_Travel__c</name>
+        <picklistValues>
+            <masterLabel>Bicycling</masterLabel>
+            <translation>バイシクリング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driving</masterLabel>
+            <translation>運転</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driving Avoid Highways</masterLabel>
+            <translation>高速道路回避</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driving Avoid Tolls</masterLabel>
+            <translation>料金所回避</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walking</masterLabel>
+            <translation>徒歩</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Optimizer Connection Name --></label>
+        <name>SVMXC__Optimizer_Connection_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Some identifier from the external scheduling optimizer to link the Territory --></help>
+        <label><!-- Optimizer External Identifier --></label>
+        <name>SVMXC__Optimizer_External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last timestamp of when schedule details retrieved from the scheduling optmizer --></help>
+        <label><!-- Optimizer Last Timestamp --></label>
+        <name>SVMXC__Optimizer_Last_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Territory --></label>
+        <name>SVMXC__Parent_Territory__c</name>
+        <relationshipLabel><!-- Child Territories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Per Hour Cost --></label>
+        <name>SVMXC__Per_Hour_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Per Mile Cost --></label>
+        <name>SVMXC__Per_Mile_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Look up field for overnight policy in the territory object --></help>
+        <label><!-- Overnight Stay Policy --></label>
+        <name>SVMXC__SM_Overnight_Stay_Policy__c</name>
+        <relationshipLabel><!-- Territories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>SVMXC__Select__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Code --></label>
+        <name>SVMXC__Territory_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory&apos;s Business Hours --></label>
+        <name>SVMXC__Territory_s_Business_Hours__c</name>
+        <relationshipLabel><!-- Territory (担当地域の業務時間) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>SMAX_PS_Territory Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Territory</nameFieldLabel>
+    <webLinks>
+        <label><!-- Manage_Territories --></label>
+        <name>SVMXC__Manage_Territories</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>技術者/機器</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- 廃棄 --></label>
+        <name>SMAX_PS_Abolished__c</name>
+    </fields>
+    <fields>
+        <label><!-- 固定資産番号 --></label>
+        <name>SMAX_PS_AssetNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 区分 --></label>
+        <name>SMAX_PS_Category__c</name>
+        <picklistValues>
+            <masterLabel>ボンベ</masterLabel>
+            <translation><!-- ボンベ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>代替機</masterLabel>
+            <translation><!-- 代替機 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>技術者</masterLabel>
+            <translation><!-- 技術者 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>検査機器</masterLabel>
+            <translation><!-- 検査機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>治具</masterLabel>
+            <translation><!-- 治具 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>社有車</masterLabel>
+            <translation><!-- 社有車 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 特性 --></label>
+        <name>SMAX_PS_Characterstics__c</name>
+        <picklistValues>
+            <masterLabel>不活性</masterLabel>
+            <translation><!-- 不活性 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>可燃性</masterLabel>
+            <translation><!-- 可燃性 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>可燃性毒性</masterLabel>
+            <translation><!-- 可燃性毒性 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>支燃性</masterLabel>
+            <translation><!-- 支燃性 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>毒性</masterLabel>
+            <translation><!-- 毒性 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 濃度 --></label>
+        <name>SMAX_PS_Concentration__c</name>
+    </fields>
+    <fields>
+        <label><!-- 容器No. --></label>
+        <name>SMAX_PS_Container_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- 容器容量 --></label>
+        <name>SMAX_PS_Container_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- ボンベステータスアイコン --></label>
+        <name>SMAX_PS_Cylinder_Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- ボンベステータス --></label>
+        <name>SMAX_PS_Cylinder_Status__c</name>
+        <picklistValues>
+            <masterLabel>⚫　整備中</masterLabel>
+            <translation><!-- ⚫　整備中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>🔴　使用中</masterLabel>
+            <translation><!-- 🔴　使用中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>🟡　使用予定</masterLabel>
+            <translation><!-- 🟡　使用予定 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>🟢　使用可</masterLabel>
+            <translation><!-- 🟢　使用可 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- メーカー --></label>
+        <name>SMAX_PS_EquipmentMaker__c</name>
+    </fields>
+    <fields>
+        <label><!-- 型式 --></label>
+        <name>SMAX_PS_EquipmentModel__c</name>
+    </fields>
+    <fields>
+        <label><!-- ガス種 --></label>
+        <name>SMAX_PS_Gas_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- 法規制 --></label>
+        <name>SMAX_PS_Laws_Regulation__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貸出日 --></label>
+        <name>SMAX_PS_Lend_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貸出要求日 --></label>
+        <name>SMAX_PS_Lend_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貸出ステータスアイコン --></label>
+        <name>SMAX_PS_Lend_Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貸出ステータス --></label>
+        <name>SMAX_PS_Lend_Status__c</name>
+        <picklistValues>
+            <masterLabel>⚫　整備中</masterLabel>
+            <translation><!-- ⚫　整備中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>🔴　貸出中</masterLabel>
+            <translation><!-- 🔴　貸出中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>🟡　予約中</masterLabel>
+            <translation><!-- 🟡　予約中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>🟢　貸出可</masterLabel>
+            <translation><!-- 🟢　貸出可 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 貸出先担当者名 --></label>
+        <name>SMAX_PS_Lend_To_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貸出先電話番号 --></label>
+        <name>SMAX_PS_Lend_To_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貸出先営業所 --></label>
+        <name>SMAX_PS_Lend_To_Sales_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貸出先 --></label>
+        <name>SMAX_PS_Lend_To__c</name>
+        <relationshipLabel><!-- Technician/Equipment --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 管理担当者 --></label>
+        <name>SMAX_PS_Manage_User__c</name>
+        <relationshipLabel><!-- 技術者/機器 (管理担当者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 管理No.(設備番号) --></label>
+        <name>SMAX_PS_ManagedNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 携帯メール --></label>
+        <name>SMAX_PS_Mobile_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- 携帯電話 --></label>
+        <name>SMAX_PS_Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- 次使用予定者 --></label>
+        <name>SMAX_PS_Next_User__c</name>
+        <relationshipLabel><!-- 技術者/機器 (次使用予定者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 社内内線 --></label>
+        <name>SMAX_PS_Office_Extenstion__c</name>
+    </fields>
+    <fields>
+        <label><!-- 設置場所 --></label>
+        <name>SMAX_PS_Place__c</name>
+    </fields>
+    <fields>
+        <label><!-- 購入金額 --></label>
+        <name>SMAX_PS_Purchase_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- 購入先 --></label>
+        <name>SMAX_PS_Purchased_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- 参照URL --></label>
+        <name>SMAX_PS_Reference_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- 残量ステータス --></label>
+        <name>SMAX_PS_Remain_Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- 残量 --></label>
+        <name>SMAX_PS_Remain_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- 返却日 --></label>
+        <name>SMAX_PS_Return_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 返却予定日 --></label>
+        <name>SMAX_PS_Return_Planned_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP品目コード --></label>
+        <name>SMAX_PS_SAP_Item_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- サービス営業Gr --></label>
+        <name>SMAX_PS_SAP_SalesGroup_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- サービス営業Gr --></label>
+        <name>SMAX_PS_SAP_SalesGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- セグメント --></label>
+        <name>SMAX_PS_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- シリアルNo. --></label>
+        <name>SMAX_PS_Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- 棚番 --></label>
+        <name>SMAX_PS_Shelf_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- 仕様 --></label>
+        <name>SMAX_PS_Specification__c</name>
+    </fields>
+    <fields>
+        <label><!-- 技術者/機器 --></label>
+        <name>SMAX_PS_Tech_Equipment__c</name>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technician</masterLabel>
+            <translation><!-- Technician --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 検定日付 --></label>
+        <name>SMAX_PS_Test_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貿管令該当 --></label>
+        <name>SMAX_PS_Trade_Control__c</name>
+    </fields>
+    <fields>
+        <label><!-- ユーザメール --></label>
+        <name>SMAX_PS_UserEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- 使用者 --></label>
+        <name>SMAX_PS_User__c</name>
+        <relationshipLabel><!-- 技術者/機器 (使用者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 有効期限 --></label>
+        <name>SMAX_PS_Valid_Up_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- 警告残量 --></label>
+        <name>SMAX_PS_Warning_Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicates if this member is active and available for service order assignments. This flag does not drive any functionality in ServiceMax and is for informational purposes only --></help>
+        <label><!-- Active --></label>
+        <name>SVMXC__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Drive Time --></label>
+        <name>SVMXC__Average_Drive_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Speed --></label>
+        <name>SVMXC__Average_Speed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Break Duration --></label>
+        <name>SVMXC__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Break Hours --></label>
+        <name>SVMXC__Break_Hours__c</name>
+        <relationshipLabel><!-- Technician/Equipment (Break Hours) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Break Type --></label>
+        <name>SVMXC__Break_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>固定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time Window</masterLabel>
+            <translation>時間枠</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- “City” part of the technician&apos;s address --></help>
+        <label><!-- City --></label>
+        <name>SVMXC__City__c</name>
+    </fields>
+    <fields>
+        <help><!-- “Country” part of the technician&apos;s address --></help>
+        <label><!-- Country --></label>
+        <name>SVMXC__Country__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan</masterLabel>
+            <translation>アフガニスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation>アルバニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria</masterLabel>
+            <translation>アルジェリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American</masterLabel>
+            <translation>アメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andorra</masterLabel>
+            <translation>アンドラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anguilla</masterLabel>
+            <translation>アンギラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antarctica</masterLabel>
+            <translation>南極</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antigua And</masterLabel>
+            <translation>アンティグア・バーブーダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation>アルゼンチン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia</masterLabel>
+            <translation>アルメニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aruba</masterLabel>
+            <translation>アルバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation>オーストラリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation>オーストリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ayerbaijan</masterLabel>
+            <translation>アゼルバイジャン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahamas</masterLabel>
+            <translation>バハマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain</masterLabel>
+            <translation>バーレーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh</masterLabel>
+            <translation>バングラデシュ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation>バルバドス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus</masterLabel>
+            <translation>ベラルーシ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation>ベルギー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation>ベリーズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benin</masterLabel>
+            <translation>ベナン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bermuda</masterLabel>
+            <translation>バミューダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan</masterLabel>
+            <translation>ブータン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia</masterLabel>
+            <translation>ボリビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia and Herzegovina</masterLabel>
+            <translation>ボスニア・ヘルツェゴビナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation>ボツワナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bouvet</masterLabel>
+            <translation>ブーベ島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation>ブラジル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>British Indian Ocean Territory</masterLabel>
+            <translation>英領インド洋地域</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunei</masterLabel>
+            <translation>ブルネイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation>ブルガリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burkina Faso</masterLabel>
+            <translation>ブルキナファソ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi</masterLabel>
+            <translation>ブルンジ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia</masterLabel>
+            <translation>カンボジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameroon</masterLabel>
+            <translation>カメルーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation>カナダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Verde</masterLabel>
+            <translation>カーボベルデ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayman Is</masterLabel>
+            <translation>ケイマン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central African Republic</masterLabel>
+            <translation>中央アフリカ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad</masterLabel>
+            <translation>チャド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation>チリ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation>中国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China (Hong Kong S.A.R.)</masterLabel>
+            <translation>中国 (香港)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China (Macau S.A.R.)</masterLabel>
+            <translation>中国 (マカオ)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christmas Is</masterLabel>
+            <translation>クリスマス諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cocos (Keeling) Is</masterLabel>
+            <translation>ココス (キーリング) 諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation>コロンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comoros</masterLabel>
+            <translation>コモロ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Islands</masterLabel>
+            <translation>クック諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation>コスタリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote D&apos;Ivoire (Ivory Coast)</masterLabel>
+            <translation>コートジボワール (アイボリー コースト)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia (Hrvatska)</masterLabel>
+            <translation>クロアチア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation>キプロス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation>チェコ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Democratic Republic of the Congo</masterLabel>
+            <translation>コンゴ民主共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation>デンマーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation>ジブチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation>ドミニカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic</masterLabel>
+            <translation>ドミニカ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Timor</masterLabel>
+            <translation>東ティモール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation>エクアドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation>エジプト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation>エルサルバドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equatorial Guinea</masterLabel>
+            <translation>赤道ギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eritrea</masterLabel>
+            <translation>エリトリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation>エストニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia</masterLabel>
+            <translation>エチオピア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F.Y.R.O. Macedonia</masterLabel>
+            <translation>マケドニア旧ユーゴスラビア共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falkland Is (Is Malvinas)</masterLabel>
+            <translation>フォークランド (マルビナス) 諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faroe Islands</masterLabel>
+            <translation>フェロー諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji Islands</masterLabel>
+            <translation>フィジー諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation>フィンランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation>フランス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Guiana</masterLabel>
+            <translation>フランス領ギアナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Polynesia</masterLabel>
+            <translation>フランス領ポリネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Southern Territories</masterLabel>
+            <translation>仏領極南諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabon</masterLabel>
+            <translation>ガボン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambia, The</masterLabel>
+            <translation>ガンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation>グルジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation>ドイツ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation>ガーナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation>ジブラルタル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation>ギリシャ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation>グリーンランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grenada</masterLabel>
+            <translation>グレナダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadeloupe</masterLabel>
+            <translation>グアドループ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guam</masterLabel>
+            <translation>グアム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation>グアテマラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea</masterLabel>
+            <translation>ギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea-Bissau</masterLabel>
+            <translation>ギニアビサウ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana</masterLabel>
+            <translation>ガイアナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti</masterLabel>
+            <translation>ハイチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heard and McDonald Is</masterLabel>
+            <translation>ヘアド島 マクドナルド諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation>ホンジュラス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation>ハンガリー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation>アイスランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation>インド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation>インドネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation>アイルランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation>イスラエル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation>イタリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica</masterLabel>
+            <translation>ジャマイカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation>日本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation>ヨルダン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kayakhstan</masterLabel>
+            <translation>カザフスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya</masterLabel>
+            <translation>ケニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati</masterLabel>
+            <translation>キリバス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, South</masterLabel>
+            <translation>韓国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation>クウェート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kyrgyzstan</masterLabel>
+            <translation>キルギスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laos</masterLabel>
+            <translation>ラオス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation>ラトビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon</masterLabel>
+            <translation>レバノン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesotho</masterLabel>
+            <translation>レソト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation>リベリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation>リヒテンシュタイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation>リトアニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation>ルクセンブルグ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation>マダガスカル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi</masterLabel>
+            <translation>マラウィ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation>マレーシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives</masterLabel>
+            <translation>モルディブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation>マリ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation>マルタ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marshall Is</masterLabel>
+            <translation>マーシャル諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinique</masterLabel>
+            <translation>マルチニーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritania</masterLabel>
+            <translation>モーリタニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius</masterLabel>
+            <translation>モーリシャス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayotte</masterLabel>
+            <translation>マイヨット島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation>メキシコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micronesia</masterLabel>
+            <translation>ミクロネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldova</masterLabel>
+            <translation>モルドバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monaco</masterLabel>
+            <translation>モナコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia</masterLabel>
+            <translation>モンゴル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation>モンセラット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation>モロッコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation>モザンビーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myanmar</masterLabel>
+            <translation>ミャンマー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation>ナミビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru</masterLabel>
+            <translation>ナウル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal</masterLabel>
+            <translation>ネパール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands Antilles</masterLabel>
+            <translation>オランダ領アンティル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands, The</masterLabel>
+            <translation>オランダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Caledonia</masterLabel>
+            <translation>ニューカレドニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation>ニュージーランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation>ニカラグア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger</masterLabel>
+            <translation>ニジェール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation>ナイジェリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niue</masterLabel>
+            <translation>ニウエ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norfolk Island</masterLabel>
+            <translation>ノーフォーク島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Mariana Is</masterLabel>
+            <translation>北マリアナ諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation>ノルウェー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oman</masterLabel>
+            <translation>オマーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation>パキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palau</masterLabel>
+            <translation>パラオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation>パナマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papua new Guinea</masterLabel>
+            <translation>パプアニューギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay</masterLabel>
+            <translation>パラグアイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation>ペルー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation>フィリピン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitcairn Island</masterLabel>
+            <translation>ピトケアン島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation>ポーランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation>ポルトガル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation>プエルトリコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar</masterLabel>
+            <translation>カタール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic of the Congo</masterLabel>
+            <translation>コンゴ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reunion</masterLabel>
+            <translation>レユニオン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation>ルーマニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation>ロシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Helena</masterLabel>
+            <translation>セントヘレナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Kitts And Nevis</masterLabel>
+            <translation>セントクリストファー・ネイビス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Lucia</masterLabel>
+            <translation>セントルシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Pierre and Miquelon</masterLabel>
+            <translation>サンピエール島・ミクロン島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Vincent And The Grenadines</masterLabel>
+            <translation>セントビンセントおよびグレナディーン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa</masterLabel>
+            <translation>サモア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Marino</masterLabel>
+            <translation>サンマリノ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sao Tome and Principe</masterLabel>
+            <translation>サントメ・プリンシペ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation>サウジアラビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal</masterLabel>
+            <translation>セネガル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seychelles</masterLabel>
+            <translation>セイシェル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone</masterLabel>
+            <translation>シエラレオネ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation>シンガポール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation>スロバキア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation>スロベニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands</masterLabel>
+            <translation>ソロモン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia</masterLabel>
+            <translation>ソマリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation>南アフリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Georgia &amp;amp; The S. Sandwich Is</masterLabel>
+            <translation>南ジョージア島・南サンドイッチ諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation>スペイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation>スリランカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname</masterLabel>
+            <translation>スリナム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Svalbard And Jan Mayen Is</masterLabel>
+            <translation>スバールバル諸島、ヤンマイエン島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swaziland</masterLabel>
+            <translation>スワジランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation>スウェーデン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation>スイス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syria</masterLabel>
+            <translation>シリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation>台湾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tajikistan</masterLabel>
+            <translation>タジキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania</masterLabel>
+            <translation>タンザニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation>タイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timor-Leste</masterLabel>
+            <translation>東ティモール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Togo</masterLabel>
+            <translation>トーゴ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tokelau</masterLabel>
+            <translation>トケラウ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga</masterLabel>
+            <translation>トンガ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trinidad And Tobago</masterLabel>
+            <translation>トリニダード・トバゴ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunisia</masterLabel>
+            <translation>チュニジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>トルコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkmenistan</masterLabel>
+            <translation>:トルクメニスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turks And Caicos Is</masterLabel>
+            <translation>タークス諸島、カイコス諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuvalu</masterLabel>
+            <translation>ツバル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation>ウガンダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine</masterLabel>
+            <translation>ウクライナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates</masterLabel>
+            <translation>アラブ首長国連邦</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation>英国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation>米国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States Minor Outlying Is</masterLabel>
+            <translation>その他の米領諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation>ウルグアイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uzbekistan</masterLabel>
+            <translation>ウズベキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu</masterLabel>
+            <translation>バヌアツ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vatican City State (Holy See)</masterLabel>
+            <translation>バチカン市国 (教皇庁)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela</masterLabel>
+            <translation>ベネズエラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation>ベトナム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Islands (British)</masterLabel>
+            <translation>バージン諸島 (英国):</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Islands (US)</masterLabel>
+            <translation>バージン諸島 (米国):</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallis And Futuna Islands</masterLabel>
+            <translation>ワリス・フテュナ諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Sahara</masterLabel>
+            <translation>西サハラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yemen</masterLabel>
+            <translation>イエメン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation>ザンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation>ジンバブエ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Email of the technician --></help>
+        <label><!-- Email --></label>
+        <name>SVMXC__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Scheduling --></label>
+        <name>SVMXC__Enable_Scheduling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Cost --></label>
+        <name>SVMXC__Fixed_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Location --></label>
+        <name>SVMXC__Inventory_Location__c</name>
+        <relationshipLabel><!-- Technician/Equipment --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>自宅住所 赤道南北の位置。</help>
+        <label><!-- Home Latitude --></label>
+        <name>SVMXC__Latitude_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Address location north or south of the equator. --></help>
+        <label><!-- Current Latitude --></label>
+        <name>SVMXC__Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latlong Captured On --></label>
+        <name>SVMXC__Latlong_Captured_On__c</name>
+    </fields>
+    <fields>
+        <help>自宅住所 東西の地理的座標測定。</help>
+        <label><!-- Home Longitude --></label>
+        <name>SVMXC__Longitude_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- East west geographic coordinate measurement. --></help>
+        <label><!-- Current Longitude --></label>
+        <name>SVMXC__Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Daily Hours --></label>
+        <name>SVMXC__Max_Daily_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Distance --></label>
+        <name>SVMXC__Max_Distance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Hours --></label>
+        <name>SVMXC__Max_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional information about the member relevant to service delivery --></help>
+        <label>備考</label>
+        <name>SVMXC__Member_information__c</name>
+    </fields>
+    <fields>
+        <help><!-- Some identifier from the external scheduling optimizer to link the Technician --></help>
+        <label><!-- Optimizer External Identifier --></label>
+        <name>SVMXC__Optimizer_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overtime Hours --></label>
+        <name>SVMXC__Overtime_Hours__c</name>
+        <relationshipLabel><!-- Technician/Equipment (Overtime Hours) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Per Hour Cost --></label>
+        <name>SVMXC__Per_Hour_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Per Mile Cost --></label>
+        <name>SVMXC__Per_Mile_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Telephone number of the technician --></help>
+        <label><!-- Phone --></label>
+        <name>SVMXC__Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role of the member in the group. --></help>
+        <label><!-- Role --></label>
+        <name>SVMXC__Role__c</name>
+        <picklistValues>
+            <masterLabel>SS長</masterLabel>
+            <translation><!-- SS長 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービスエンジニア</masterLabel>
+            <translation><!-- サービスエンジニア --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>サービスマネージャー</masterLabel>
+            <translation><!-- サービスマネージャー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>テクニカルサポート</masterLabel>
+            <translation><!-- テクニカルサポート --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>パートナー</masterLabel>
+            <translation><!-- パートナー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>担当リーダー</masterLabel>
+            <translation><!-- 担当リーダー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- look up field for overnight policy in the technician object --></help>
+        <label><!-- Overnight Stay Policy --></label>
+        <name>SVMXC__SM_Overnight_Stay_Policy__c</name>
+        <relationshipLabel><!-- Technician/Equipment --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Lookup to an existing salesforce User. --></help>
+        <label><!-- Salesforce User --></label>
+        <name>SVMXC__Salesforce_User__c</name>
+        <relationshipLabel><!-- 技術者/機器 (Salesforce ユーザー) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>SVMXC__Select__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the service group. Is a lookup to an existing service group in ServiceMax --></help>
+        <label>Service Station</label>
+        <name>SVMXC__Service_Group__c</name>
+        <relationshipLabel><!-- Technician/Equipment --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Territory</label>
+        <name>SVMXC__Service_Territory__c</name>
+        <relationshipLabel><!-- Technician/Equipment --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- “State” part of the technician&apos;s address --></help>
+        <label><!-- State --></label>
+        <name>SVMXC__State__c</name>
+    </fields>
+    <fields>
+        <help><!-- “Street” part of the technician&apos;s address --></help>
+        <label><!-- Street --></label>
+        <name>SVMXC__Street__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the technician is a salesforce user or third party vendor --></help>
+        <label>パートナー</label>
+        <name>SVMXC__Third_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- Working Hours --></label>
+        <name>SVMXC__Working_Hours__c</name>
+        <relationshipLabel><!-- Technician/Equipment (Working Hours) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- “Zip code” part of the technician&apos;s address --></help>
+        <label><!-- Zip --></label>
+        <name>SVMXC__Zip__c</name>
+    </fields>
+    <layouts>
+        <layout>SMAX_PS_Service Group Member Layout</layout>
+        <sections>
+            <label><!-- Availability --></label>
+            <section>Availability</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dispatch factor --></label>
+            <section>Dispatch factor</section>
+        </sections>
+        <sections>
+            <label><!-- Service Flow Wizards --></label>
+            <section>Service Flow Wizards</section>
+        </sections>
+        <sections>
+            <label><!-- Technician情報 --></label>
+            <section>Technician情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SMAX_PS_Technician</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Equipment情報 --></label>
+            <section>Equipment情報</section>
+        </sections>
+        <sections>
+            <label><!-- Technician/Equipment情報 --></label>
+            <section>Technician/Equipment情報</section>
+        </sections>
+        <sections>
+            <label><!-- Technician情報 --></label>
+            <section>Technician情報</section>
+        </sections>
+        <sections>
+            <label><!-- ボンベ追加情報 --></label>
+            <section>ボンベ追加情報</section>
+        </sections>
+        <sections>
+            <label><!-- 住所情報 --></label>
+            <section>住所情報</section>
+        </sections>
+        <sections>
+            <label><!-- 更新情報 --></label>
+            <section>更新情報</section>
+        </sections>
+        <sections>
+            <label><!-- 貸出情報 --></label>
+            <section>貸出情報</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>名前</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- You are restricted from updating the fields except Mobile Phone, Mobile Email and Member Information --></errorMessage>
+        <name>SMAX_PS_Restrict_Editable_Fields</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Manage_Technicians --></label>
+        <name>SVMXC__Manage_Technicians</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate_Address --></label>
+        <name>SVMXC__Validate_Address</name>
+    </webLinks>
+</CustomObjectTranslation>

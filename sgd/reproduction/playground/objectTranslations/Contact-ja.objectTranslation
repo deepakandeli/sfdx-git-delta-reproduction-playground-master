@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- 所属研究会 --></label>
+        <name>Academic_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- 学会 --></label>
+        <name>Academic_conference__c</name>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISGN</masterLabel>
+            <translation><!-- ISGN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISPlasma</masterLabel>
+            <translation><!-- ISPlasma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IWN</masterLabel>
+            <translation><!-- IWN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>応用物理学会</masterLabel>
+            <translation><!-- 応用物理学会 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>窒化物半導体結晶成長講演会</masterLabel>
+            <translation><!-- 窒化物半導体結晶成長講演会 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 国プロ --></label>
+        <name>Academic_project__c</name>
+        <picklistValues>
+            <masterLabel>スーパークラスター/JST</masterLabel>
+            <translation><!-- スーパークラスター/JST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>センター・オブ・イノベーションプログラム（COI）/文科省、JST</masterLabel>
+            <translation><!-- センター・オブ・イノベーションプログラム（COI）/文科省、JST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>先端的低炭素化技術開発（ALCA）</masterLabel>
+            <translation><!-- 先端的低炭素化技術開発（ALCA） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的イノベーション創造プログラム（SIP）/内閣府、NEDO</masterLabel>
+            <translation><!-- 戦略的イノベーション創造プログラム（SIP）/内閣府、NEDO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的創造研究推進事業・総括実施型研究（ERATO）</masterLabel>
+            <translation><!-- 戦略的創造研究推進事業・総括実施型研究（ERATO） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的創造研究推進事業（CREST）/JST</masterLabel>
+            <translation><!-- 戦略的創造研究推進事業（CREST）/JST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>戦略的創造研究推進事業（さきがけ）</masterLabel>
+            <translation><!-- 戦略的創造研究推進事業（さきがけ） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>革新的研究開発推進プログラム（ImPACT）/内閣府</masterLabel>
+            <translation><!-- 革新的研究開発推進プログラム（ImPACT）/内閣府 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- アプローチ状況 --></label>
+        <name>ApproachCategory__c</name>
+        <picklistValues>
+            <masterLabel>Connected</masterLabel>
+            <translation><!-- Connected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recycle</masterLabel>
+            <translation><!-- Recycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage1</masterLabel>
+            <translation><!-- Stage1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage2</masterLabel>
+            <translation><!-- Stage2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage3</masterLabel>
+            <translation><!-- Stage3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 【カテゴリ1】
+問合せ（有望リード）
+STEP1；SEMI、Non-SEMIに分ける
+STEP2；SEMI⇒各担当Pass、Non-SEMI
+（注目のアクション）+重点施策（VG、200mm他）に紐づく施策、企業etc、、、確認
+STEP3；疎遠掘り起し
+【カテゴリ2】
+有望リード
+STEP1；SEMI、Non-SEMIに分ける
+STEP2；30日以内に顧客になった人
+STEP3；（直近）オフラインイベント、セミナへの参加
+【カテゴリ3】上記に当てはまらない
+【カテゴリ4】不要 --></help>
+        <label><!-- アプローチカテゴリ --></label>
+        <name>Approach_category__c</name>
+        <picklistValues>
+            <masterLabel>カテゴリ1</masterLabel>
+            <translation><!-- カテゴリ1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>カテゴリ2</masterLabel>
+            <translation><!-- カテゴリ2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>カテゴリ3</masterLabel>
+            <translation><!-- カテゴリ3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>カテゴリ4</masterLabel>
+            <translation><!-- カテゴリ4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- □有望リード
+Stage1；当日　つながる　つながらない
+Stage2；2日目　つながる　つながらない　つながらない理由；外出⇒メール　業種別資料提案etc（テンプレート用意）
+⇒営業へ送客かFollow
+Stage3；3日目　メール閲覧⇒コール　つながらない
+リサイクルへ回す場合
+□つながる⇒リサイクル
+Scoreは0に戻す⇒WebリンクClick10回⇒有望リードへ
+□つながらない⇒リサイクル 
+Scoreは0に戻す⇒認知（反応あり）1ヶ月に1回その人がどうしているかを定例会で振返る --></help>
+        <label><!-- アプローチ状況 --></label>
+        <name>Approach_status__c</name>
+        <picklistValues>
+            <masterLabel>Follow</masterLabel>
+            <translation><!-- Follow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow(営業送客)</masterLabel>
+            <translation><!-- Follow(営業送客) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recycle</masterLabel>
+            <translation><!-- Recycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage1</masterLabel>
+            <translation><!-- Stage1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage2</masterLabel>
+            <translation><!-- Stage2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stage3</masterLabel>
+            <translation><!-- Stage3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>不適格</masterLabel>
+            <translation><!-- 不適格 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>代理店（問合せ）</masterLabel>
+            <translation><!-- 代理店（問合せ） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>代理店（有望リード）</masterLabel>
+            <translation><!-- 代理店（有望リード） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>営業送客</masterLabel>
+            <translation><!-- 営業送客 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 担当ﾌﾟﾛｾｽ --></label>
+        <name>ChargeProcess__c</name>
+        <picklistValues>
+            <masterLabel>Asher</masterLabel>
+            <translation><!-- Asher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CVD</masterLabel>
+            <translation><!-- CVD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cleaning</masterLabel>
+            <translation><!-- Cleaning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diff</masterLabel>
+            <translation><!-- Diff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Etch</masterLabel>
+            <translation><!-- Etch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impla</masterLabel>
+            <translation><!-- Impla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVD</masterLabel>
+            <translation><!-- PVD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suputter</masterLabel>
+            <translation><!-- Suputter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 共同研究企業 --></label>
+        <name>Cooporate_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- 分野 --></label>
+        <name>Gyosyu__c</name>
+        <picklistValues>
+            <masterLabel>IC-SEMI</masterLabel>
+            <translation><!-- IC-SEMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-IC-SEMI</masterLabel>
+            <translation><!-- Non-IC-SEMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>コーティング</masterLabel>
+            <translation><!-- コーティング --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>バイオ</masterLabel>
+            <translation><!-- バイオ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ファイバ</masterLabel>
+            <translation><!-- ファイバ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>二次電池</masterLabel>
+            <translation><!-- 二次電池 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>化学</masterLabel>
+            <translation><!-- 化学 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>医療</masterLabel>
+            <translation><!-- 医療 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>大学・官公庁</masterLabel>
+            <translation><!-- 大学・官公庁 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新素材・繊維</masterLabel>
+            <translation><!-- 新素材・繊維 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>材料</masterLabel>
+            <translation><!-- 材料 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>機械部品</masterLabel>
+            <translation><!-- 機械部品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>熱・真空炉</masterLabel>
+            <translation><!-- 熱・真空炉 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>燃料電池</masterLabel>
+            <translation><!-- 燃料電池 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>環境</masterLabel>
+            <translation><!-- 環境 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>自動車</masterLabel>
+            <translation><!-- 自動車 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製薬・化粧品</masterLabel>
+            <translation><!-- 製薬・化粧品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>販社</masterLabel>
+            <translation><!-- 販社 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>電機部品</masterLabel>
+            <translation><!-- 電機部品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>食品</masterLabel>
+            <translation><!-- 食品 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 関心事 --></label>
+        <name>Insight__c</name>
+        <picklistValues>
+            <masterLabel>メンテナンス</masterLabel>
+            <translation><!-- メンテナンス --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>使い方/取説</masterLabel>
+            <translation><!-- 使い方/取説 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>窓口確認</masterLabel>
+            <translation><!-- 窓口確認 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>該非判定</masterLabel>
+            <translation><!-- 該非判定 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>資料請求</masterLabel>
+            <translation><!-- 資料請求 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- キーマンの補足情報欄です。 --></help>
+        <label><!-- キーマン補足情報 --></label>
+        <name>KeymanInfo2__c</name>
+    </fields>
+    <fields>
+        <label><!-- キーマン --></label>
+        <name>Keyman__c</name>
+    </fields>
+    <fields>
+        <label><!-- MarketoFlg --></label>
+        <name>MarketoFlg__c</name>
+    </fields>
+    <fields>
+        <label><!-- 内線 --></label>
+        <name>Naisen__c</name>
+    </fields>
+    <fields>
+        <label><!-- NotifiedToMarketoFlg --></label>
+        <name>NotifiedToMarketoFlg__c</name>
+    </fields>
+    <fields>
+        <label><!-- 旧環境所有者名 --></label>
+        <name>OldLocationOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- 趣味・嗜好・その他 --></label>
+        <name>OtherComment__c</name>
+    </fields>
+    <fields>
+        <label><!-- リサイクル理由 --></label>
+        <name>Reasonofrecycle__c</name>
+        <picklistValues>
+            <masterLabel>Gr製品</masterLabel>
+            <translation><!-- Gr製品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>タイミング</masterLabel>
+            <translation><!-- タイミング --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>値段</masterLabel>
+            <translation><!-- 値段 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>問合せのみ</masterLabel>
+            <translation><!-- 問合せのみ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>営業フォロー済</masterLabel>
+            <translation><!-- 営業フォロー済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>情報収集</masterLabel>
+            <translation><!-- 情報収集 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>時期</masterLabel>
+            <translation><!-- 時期 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品性能</masterLabel>
+            <translation><!-- 製品性能 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>見積済/発注済</masterLabel>
+            <translation><!-- 見積済/発注済 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>連絡不可</masterLabel>
+            <translation><!-- 連絡不可 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 名刺手書きメモ --></label>
+        <name>SmartViscaf__NameCardFreehandmemo__c</name>
+    </fields>
+    <fields>
+        <help><!-- 名刺から取り込んだ時のリスト名 --></help>
+        <label><!-- 名刺リスト名 --></label>
+        <name>SmartViscaf__NameCardListName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 名刺メモ --></label>
+        <name>SmartViscaf__NameCardMemo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 名刺 --></label>
+        <name>SmartViscaf__NameCard__c</name>
+        <relationshipLabel><!-- 取引先責任者 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- フォロー --></label>
+        <name>follow__c</name>
+    </fields>
+    <fields>
+        <label><!-- 取得日 --></label>
+        <name>mkto71_Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 新規顧客獲得プログラム --></label>
+        <name>mkto71_Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- リードのスコア --></label>
+        <name>mkto71_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Info（参照元のソース情報） --></label>
+        <name>mkto71_Original_Source_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Type（参照元のソースのタイプ） --></label>
+        <name>mkto71_Original_Source_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Add to Marketo Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Date --></label>
+        <name>mkto_si__HideDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Date --></label>
+        <name>mkto_si__Last_Interesting_Moment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Desc --></label>
+        <name>mkto_si__Last_Interesting_Moment_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Source --></label>
+        <name>mkto_si__Last_Interesting_Moment_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Type --></label>
+        <name>mkto_si__Last_Interesting_Moment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment --></label>
+        <name>mkto_si__Last_Interesting_Moment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mkto Lead Score --></label>
+        <name>mkto_si__Mkto_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement --></label>
+        <name>mkto_si__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relative Score Value --></label>
+        <name>mkto_si__Relative_Score_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relative Score --></label>
+        <name>mkto_si__Relative_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Insight --></label>
+        <name>mkto_si__Sales_Insight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency Value --></label>
+        <name>mkto_si__Urgency_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>mkto_si__Urgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- View in Marketo --></label>
+        <name>mkto_si__View_in_Marketo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 関連先情報 --></label>
+        <name>relation__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- 得意先担当者 --></label>
+        <name>ContactType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SVMX Contact --></label>
+        <name>SMAX_PS_Contact</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- メールもしくは電話番号を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Required_Email_or_Phone</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NameCardList --></label>
+        <name>SmartViscaf__NameCardList</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NameCardListLex --></label>
+        <name>SmartViscaf__NameCardListLex</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email --></label>
+        <name>mkto_si__Send_Marketo_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

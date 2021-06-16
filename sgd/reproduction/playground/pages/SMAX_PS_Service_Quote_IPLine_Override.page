@@ -1,0 +1,9 @@
+<apex:page standardController="SMAX_PS_Service_Quote_IP_Line__c">
+  <!-- Begin Default Content REMOVE THIS -->
+   <Body style="font-size:20px; background-color:white">
+   <p>It is not available to create Quote IP Line from this "New" Button. Please process from the SFM link on Service Quote.</p>
+   <p>IP見積対象製品・項番をこのボタンから作成することはできません。サービス見積のService Flow Wizardにある「編集」から作成してください。</p>
+   </Body>
+
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

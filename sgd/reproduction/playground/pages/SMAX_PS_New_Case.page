@@ -1,0 +1,10 @@
+<apex:page standardController="Case">
+    <script>
+    window.onload = window.setTimeout(redirect(),0);
+    
+    function redirect(){
+        window.location.href='/apex/SVMXC__ServiceMaxConsole?SVMX_processId=SFM161537102205397d9066cac6c7dc2bd5a1351c44294cb&SVMX_IsSFMLightning=true'; 
+    }
+    </script>
+    
+</apex:page>

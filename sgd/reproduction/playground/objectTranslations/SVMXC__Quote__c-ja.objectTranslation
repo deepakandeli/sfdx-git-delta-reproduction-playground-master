@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>サービス見積</value>
+    </caseValues>
+    <fields>
+        <label><!-- 見積申請者氏名 --></label>
+        <name>SMAX_PS_Applier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 見積承認申請者メール --></label>
+        <name>SMAX_PS_Applier__c</name>
+    </fields>
+    <fields>
+        <label><!-- 承認日時 --></label>
+        <name>SMAX_PS_Approval_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver Local Name --></label>
+        <name>SMAX_PS_Approver_Local_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 承認者ログイン --></label>
+        <name>SMAX_PS_Approver_Loggd_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- 承認者 --></label>
+        <name>SMAX_PS_Approver__c</name>
+        <relationshipLabel><!-- サービス見積 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ケース --></label>
+        <name>SMAX_PS_Case__c</name>
+        <relationshipLabel><!-- Service Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- コピー元 --></label>
+        <name>SMAX_PS_Cloned_From__c</name>
+        <relationshipLabel><!-- Service Quotes (Cloned From) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 提出先FAX --></label>
+        <name>SMAX_PS_Company_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- 提出先TEL --></label>
+        <name>SMAX_PS_Company_Tel__c</name>
+    </fields>
+    <fields>
+        <label><!-- 提出先担当者部署 --></label>
+        <name>SMAX_PS_Contact_Dept__c</name>
+    </fields>
+    <fields>
+        <label><!-- 引渡条件（特殊） --></label>
+        <name>SMAX_PS_Delivery_Cond_Special__c</name>
+    </fields>
+    <fields>
+        <label><!-- 引渡条件 --></label>
+        <name>SMAX_PS_Delivery_Condition__c</name>
+        <picklistValues>
+            <masterLabel>サービス報告書のサインをもってお引渡しと致します</masterLabel>
+            <translation><!-- サービス報告書のサインをもってお引渡しと致します --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>作業報告書の発送をもってお引渡しと致します</masterLabel>
+            <translation><!-- 作業報告書の発送をもってお引渡しと致します --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>特殊</masterLabel>
+            <translation><!-- 特殊 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品納入にてお引渡しと致します</masterLabel>
+            <translation><!-- 製品納入にてお引渡しと致します --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品納品にてお引渡しと致します</masterLabel>
+            <translation><!-- 部品納品にてお引渡しと致します --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 引渡場所 --></label>
+        <name>SMAX_PS_Delivery_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- 帳票：明細表示 --></label>
+        <name>SMAX_PS_Display_IP_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- 帳票：総合計有無 --></label>
+        <name>SMAX_PS_Display_IP_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- 帳票：部品金額表示有無 --></label>
+        <name>SMAX_PS_Display_Parts_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- 帳票：部品表表示 --></label>
+        <name>SMAX_PS_Display_Parts_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- 帳票：部品仕様表示有無 --></label>
+        <name>SMAX_PS_Display_Parts_Spec__c</name>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザ --></label>
+        <name>SMAX_PS_End_User_Account__c</name>
+        <relationshipLabel><!-- Service Quotes (エンドユーザ) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザ住所 --></label>
+        <name>SMAX_PS_End_User_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザ担当者部署 --></label>
+        <name>SMAX_PS_End_User_Cont_Dept__c</name>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザ担当者 --></label>
+        <name>SMAX_PS_End_User_Contact__c</name>
+        <relationshipLabel><!-- Service Quotes (エンドユーザ担当者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザFAX --></label>
+        <name>SMAX_PS_End_User_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- エンドユーザTEL --></label>
+        <name>SMAX_PS_End_User_Tel__c</name>
+    </fields>
+    <fields>
+        <label><!-- 諸経費パーセント --></label>
+        <name>SMAX_PS_Expense_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- HOR - 担当者名 --></label>
+        <name>SMAX_PS_HOR_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- HOR - 日付 --></label>
+        <name>SMAX_PS_HOR_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- HOR - 号 --></label>
+        <name>SMAX_PS_HOR_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- HOR - 営業所 --></label>
+        <name>SMAX_PS_HOR_SO__c</name>
+        <relationshipLabel><!-- Service Quotes (HOR - 営業所) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 社内メモ --></label>
+        <name>SMAX_PS_Internal_Memo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 帳票様式（HTS/HOR） --></label>
+        <name>SMAX_PS_OutPut_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Local Name --></label>
+        <name>SMAX_PS_Owner_Local_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 部品価格表 --></label>
+        <name>SMAX_PS_Parts_Price_Book__c</name>
+        <relationshipLabel><!-- Service Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 支払条件 --></label>
+        <name>SMAX_PS_Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- 発行日 --></label>
+        <name>SMAX_PS_Publish_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 見積総額 --></label>
+        <name>SMAX_PS_Quote_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- 備考 --></label>
+        <name>SMAX_PS_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>SMAX_PS_Report_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業Gr. --></label>
+        <name>SMAX_PS_SAP_SalesGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業所 --></label>
+        <name>SMAX_PS_SAP_SalesOffice_OLD__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業所 --></label>
+        <name>SMAX_PS_SAP_SalesOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販売組織 --></label>
+        <name>SMAX_PS_SAP_SalesOrg__c</name>
+    </fields>
+    <fields>
+        <label><!-- セグメント --></label>
+        <name>SMAX_PS_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- サービス価格表 --></label>
+        <name>SMAX_PS_Service_Pricebook__c</name>
+        <relationshipLabel><!-- Service Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Station --></label>
+        <name>SMAX_PS_Service_Team__c</name>
+        <relationshipLabel><!-- Service Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 設置場所 --></label>
+        <name>SMAX_PS_Site__c</name>
+        <relationshipLabel><!-- Service Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 件名 --></label>
+        <name>SMAX_PS_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- 帳票：税込み・税抜き --></label>
+        <name>SMAX_PS_Tax_Rate__c</name>
+        <picklistValues>
+            <masterLabel>税抜き</masterLabel>
+            <translation><!-- 税抜き --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>税込み（10%）</masterLabel>
+            <translation><!-- 税込み（10%） --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 税金 --></label>
+        <name>SMAX_PS_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- 納期 --></label>
+        <name>SMAX_PS_Valid_Up_To__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer account for whom the quote is prepared. Is a lookup to an existing salesforce account record --></help>
+        <label>受注先</label>
+        <name>SVMXC__Company__c</name>
+        <relationshipLabel><!-- Service Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Customer contact for whom the quote is prepared. Is a lookup to an existing salesforce contact record --></help>
+        <label>受注先担当者</label>
+        <name>SVMXC__Contact__c</name>
+        <relationshipLabel><!-- サービス見積 (受注先担当者) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select Discount Type --></help>
+        <label><!-- Discount Type --></label>
+        <name>SVMXC__Discount_Type__c</name>
+        <picklistValues>
+            <masterLabel>Amount</masterLabel>
+            <translation>金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation>率 (%)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- To capture discount percentage or amount based on selected Discount Type --></help>
+        <label><!-- Discount --></label>
+        <name>SVMXC__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- EndpointURL --></label>
+        <name>SVMXC__EndpointURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total amount of the quote after discount --></help>
+        <label><!-- Quote Amount --></label>
+        <name>SVMXC__Quote_Amount2__c</name>
+    </fields>
+    <fields>
+        <help><!-- The original quote number which was revised to create this quote. Is a lookup to an existing quote in ServiceMax --></help>
+        <label><!-- Revised From --></label>
+        <name>SVMXC__Revised_From__c</name>
+        <relationshipLabel><!-- サービス見積 (変更前) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SESSION_ID --></label>
+        <name>SVMXC__SESSION_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Service order number for which this quote is created. Is a lookup to an existing service order record in ServiceMax --></help>
+        <label><!-- Work Order --></label>
+        <name>SVMXC__Service_Order__c</name>
+        <relationshipLabel><!-- Service Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Current status of the quote --></help>
+        <label>状況</label>
+        <name>SVMXC__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation>提出済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid</masterLabel>
+            <translation>無効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Approval</masterLabel>
+            <translation>承認依頼中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Sum of Line Price for all the lines --></help>
+        <label><!-- Total Line Price --></label>
+        <name>SVMXC__Total_Line_Price2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date until which the quote is valid --></help>
+        <label>見積有効期限</label>
+        <name>SVMXC__Valid_Until__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Company --></label>
+        <name>Test_Company__c</name>
+        <picklistValues>
+            <masterLabel>HOR</masterLabel>
+            <translation><!-- HOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTS</masterLabel>
+            <translation><!-- HTS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Quote Line Price(Do Not use) --></label>
+        <name>Total_Quote_Line_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- test-entry --></label>
+        <name>test_entry__c</name>
+        <picklistValues>
+            <masterLabel>test1</masterLabel>
+            <translation><!-- test1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>test2</masterLabel>
+            <translation><!-- test2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>test3</masterLabel>
+            <translation><!-- test3 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SMAX_PS_Quote Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- 印刷帳票設定 --></label>
+            <section>印刷帳票設定</section>
+        </sections>
+        <sections>
+            <label><!-- 更新情報 --></label>
+            <section>更新情報</section>
+        </sections>
+        <sections>
+            <label><!-- 見積 --></label>
+            <section>見積</section>
+        </sections>
+        <sections>
+            <label><!-- 詳細 --></label>
+            <section>詳細</section>
+        </sections>
+        <sections>
+            <label><!-- 顧客・価格情報 --></label>
+            <section>顧客・価格情報</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>見積No.</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- 引き渡し条件（特殊）を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Check_Delivery_Condition</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 特殊の場合のみ引き渡し条件（特殊）を入力してください。 --></errorMessage>
+        <name>SMAX_PS_Check_Delivery_Condition2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 【帳票：明細表示】もしくは【帳票：部品表表示】を設定してください。 --></errorMessage>
+        <name>SMAX_PS_Check_Display_Contents</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- HOR - 営業所を入力してください --></errorMessage>
+        <name>SMAX_PS_Check_HOR_SO</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- HTS支払条件を設定ください。 --></errorMessage>
+        <name>SMAX_PS_Check_Payment_Terms</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- SMAX_PS_Quote_IP_List --></label>
+        <name>SMAX_PS_Quote_IP_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SMAX_PS_Report_Download --></label>
+        <name>SMAX_PS_Report_Download</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Edit_Quote_Lines --></label>
+        <name>SVMXC__Create_Edit_Quote_Lines</name>
+    </webLinks>
+</CustomObjectTranslation>

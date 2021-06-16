@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>活動区分</value>
+        </caseValues>
+        <name>subject_activity</name>
+    </fields>
+    <fields>
+        <help><!-- 社内：メール、電話、Web会議
+
+社外：顧客訪問
+
+その他：GP勤務 --></help>
+        <label><!-- 活動場所 --></label>
+        <name>ActivityPlace__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>社内</masterLabel>
+            <translation><!-- 社内 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>社外</masterLabel>
+            <translation><!-- 社外 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 用途名 --></label>
+        <name>Application__c</name>
+    </fields>
+    <fields>
+        <label><!-- 競合情報　STEC評価 --></label>
+        <name>Competitor_Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>プラス要素</masterLabel>
+            <translation><!-- プラス要素 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>マイナス要素</masterLabel>
+            <translation><!-- マイナス要素 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ComplaintSheetNo. --></label>
+        <name>ComplaintSheetNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 上長　期日 --></label>
+        <name>Dead_Line_MS__c</name>
+    </fields>
+    <fields>
+        <label><!-- TL　期日 --></label>
+        <name>Dead_Line__c</name>
+    </fields>
+    <fields>
+        <help><!-- 顧客から得た情報で開発にもシェアしたい内容の場合はここにCheck! --></help>
+        <label><!-- 開発情報共有 --></label>
+        <name>Egg_Information_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業所 --></label>
+        <name>EigyoGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- 営業チーム --></label>
+        <name>EigyoTeam__c</name>
+    </fields>
+    <fields>
+        <help><!-- 共有が必要であればMS/TLが「幹部会報告」チェックをする。 --></help>
+        <label><!-- 幹部会報告 --></label>
+        <name>ExecutiveCommitteeReport__c</name>
+    </fields>
+    <fields>
+        <label><!-- 用途詳細 --></label>
+        <name>Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 市場 --></label>
+        <name>Field2__c</name>
+        <picklistValues>
+            <masterLabel>IC-SEMI</masterLabel>
+            <translation><!-- IC-SEMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IC-SEMI(200mm)</masterLabel>
+            <translation><!-- IC-SEMI(200mm) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-IC-SEMI</masterLabel>
+            <translation><!-- Non-IC-SEMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>コーティング</masterLabel>
+            <translation><!-- コーティング --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>バイオ</masterLabel>
+            <translation><!-- バイオ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>二次電池</masterLabel>
+            <translation><!-- 二次電池 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>医療</masterLabel>
+            <translation><!-- 医療 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新素材・繊維</masterLabel>
+            <translation><!-- 新素材・繊維 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>燃料電池</masterLabel>
+            <translation><!-- 燃料電池 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>環境</masterLabel>
+            <translation><!-- 環境 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>自動車</masterLabel>
+            <translation><!-- 自動車 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製薬・化粧品</masterLabel>
+            <translation><!-- 製薬・化粧品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>食品</masterLabel>
+            <translation><!-- 食品 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- ・新規顧客へのPR訪問は「仕掛け」と考えない 
+・新規引き合いに対する顧客訪問は「仕掛け」には入れない 
+※但し、上記2件は、上のようなコミュニケーションをプラスで行った場合は「仕掛け」と考える --></help>
+        <label><!-- 仕掛けカテゴリ --></label>
+        <name>Field3__c</name>
+        <picklistValues>
+            <masterLabel>HOR製品追加紹介</masterLabel>
+            <translation><!-- HOR製品追加紹介 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>システム提案</masterLabel>
+            <translation><!-- システム提案 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>デモ・評価提案</masterLabel>
+            <translation><!-- デモ・評価提案 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>トップセールス、Push/Pull</masterLabel>
+            <translation><!-- トップセールス、Push/Pull --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>リプレイス提案</masterLabel>
+            <translation><!-- リプレイス提案 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>他製品プラス提案</masterLabel>
+            <translation><!-- 他製品プラス提案 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>困り事解決提案</masterLabel>
+            <translation><!-- 困り事解決提案 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>技術交流会/セミナー</masterLabel>
+            <translation><!-- 技術交流会/セミナー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>採用促進提案</masterLabel>
+            <translation><!-- 採用促進提案 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新規アプリケーション開拓</masterLabel>
+            <translation><!-- 新規アプリケーション開拓 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新規市場開拓</masterLabel>
+            <translation><!-- 新規市場開拓 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新規開拓</masterLabel>
+            <translation><!-- 新規開拓 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>競合奪取</masterLabel>
+            <translation><!-- 競合奪取 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 活動状況 --></label>
+        <name>Field4__c</name>
+    </fields>
+    <fields>
+        <label><!-- GO --></label>
+        <name>GO__c</name>
+    </fields>
+    <fields>
+        <label><!-- HVP FLG --></label>
+        <name>HVP_FLG__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISW --></label>
+        <name>ISWreport__c</name>
+    </fields>
+    <fields>
+        <label><!-- 重点課題 --></label>
+        <name>Importantitem__c</name>
+    </fields>
+    <fields>
+        <label><!-- 情報収集内容 --></label>
+        <name>Information_detail__c</name>
+        <picklistValues>
+            <masterLabel>Push/Pull</masterLabel>
+            <translation><!-- Push/Pull --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ニーズ確認</masterLabel>
+            <translation><!-- ニーズ確認 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>フォーキャスト</masterLabel>
+            <translation><!-- フォーキャスト --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>技術情報</masterLabel>
+            <translation><!-- 技術情報 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>投資情報</masterLabel>
+            <translation><!-- 投資情報 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新規受注</masterLabel>
+            <translation><!-- 新規受注 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>競合情報</masterLabel>
+            <translation><!-- 競合情報 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 見積提出 --></label>
+        <name>Inquirysheet__c</name>
+        <picklistValues>
+            <masterLabel>不要</masterLabel>
+            <translation><!-- 不要 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>要</masterLabel>
+            <translation><!-- 要 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- インサイド対応中 --></label>
+        <name>InsideSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- 本部長確認 --></label>
+        <name>Kakunin_Honbu__c</name>
+    </fields>
+    <fields>
+        <help><!-- メンバーは上長に確認してほしい場合には「上長報告」にチェックを入れる。 --></help>
+        <label><!-- 上長報告 --></label>
+        <name>LeaderReport__c</name>
+    </fields>
+    <fields>
+        <help><!-- MSは「上長報告」チェックされたもののみ確認を行い、
+確認したらチェックする。
+必要に応じて、指示/確認はChatterで連絡。 --></help>
+        <label><!-- MS確認 --></label>
+        <name>MSConfirmation__c</name>
+    </fields>
+    <fields>
+        <help><!-- MSは「上長報告」チェックされたもののみ確認を行い、
+確認したらチェックする。
+必要に応じて、指示/確認はChatterで連絡。 --></help>
+        <label><!-- MS確認 --></label>
+        <name>MS__c</name>
+    </fields>
+    <fields>
+        <label><!-- 上長コメント --></label>
+        <name>ManagerCommnent__c</name>
+    </fields>
+    <fields>
+        <label><!-- 潜在要素 --></label>
+        <name>Needs_Seeds__c</name>
+        <picklistValues>
+            <masterLabel>有</masterLabel>
+            <translation><!-- 有 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>無</masterLabel>
+            <translation><!-- 無 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 新製品拡販 --></label>
+        <name>NewProducts__c</name>
+    </fields>
+    <fields>
+        <label><!-- 担当者 返信 --></label>
+        <name>NextAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- OJTレポート --></label>
+        <name>OJTreport__c</name>
+    </fields>
+    <fields>
+        <label><!-- 旧環境所有者名 --></label>
+        <name>OldLocationOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- ※※※一時用　旧環境SFID　削除必須※※※ --></label>
+        <name>OldSFId__c</name>
+    </fields>
+    <fields>
+        <label><!-- 仕掛けポイント --></label>
+        <name>Proactive_point__c</name>
+    </fields>
+    <fields>
+        <label><!-- 問題点 --></label>
+        <name>Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- 製品群 --></label>
+        <name>Products_list__c</name>
+        <picklistValues>
+            <masterLabel>DR製品</masterLabel>
+            <translation><!-- DR製品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOR製品</masterLabel>
+            <translation><!-- HOR製品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFC</masterLabel>
+            <translation><!-- MFC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>供給器</masterLabel>
+            <translation><!-- 供給器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>全般</masterLabel>
+            <translation><!-- 全般 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>気化器</masterLabel>
+            <translation><!-- 気化器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>液体</masterLabel>
+            <translation><!-- 液体 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>真空</masterLabel>
+            <translation><!-- 真空 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>装置</masterLabel>
+            <translation><!-- 装置 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 競合価格 --></label>
+        <name>RivalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- 競合情報 --></label>
+        <name>RivalCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- 競合メーカー --></label>
+        <name>RivalMaker__c</name>
+        <picklistValues>
+            <masterLabel>ANELVA</masterLabel>
+            <translation><!-- ANELVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azbil</masterLabel>
+            <translation><!-- Azbil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronkhorst</masterLabel>
+            <translation><!-- Bronkhorst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brooks</masterLabel>
+            <translation><!-- Brooks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CKD</masterLabel>
+            <translation><!-- CKD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fujikin</masterLabel>
+            <translation><!-- Fujikin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMA</masterLabel>
+            <translation><!-- HMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMS</masterLabel>
+            <translation><!-- HMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inficon</masterLabel>
+            <translation><!-- Inficon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kofloc</masterLabel>
+            <translation><!-- Kofloc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lintec</masterLabel>
+            <translation><!-- Lintec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MKS</masterLabel>
+            <translation><!-- MKS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVAL</masterLabel>
+            <translation><!-- OVAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pivotal</masterLabel>
+            <translation><!-- Pivotal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tokyo keiso</masterLabel>
+            <translation><!-- Tokyo keiso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ULVAC</masterLabel>
+            <translation><!-- ULVAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 競合型式 --></label>
+        <name>RivalModel__c</name>
+        <picklistValues>
+            <masterLabel>342(ANELVA)</masterLabel>
+            <translation><!-- 342(ANELVA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5850E</masterLabel>
+            <translation><!-- 5850E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5851E</masterLabel>
+            <translation><!-- 5851E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>626C</masterLabel>
+            <translation><!-- 626C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>627C</masterLabel>
+            <translation><!-- 627C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>628A</masterLabel>
+            <translation><!-- 628A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>628C</masterLabel>
+            <translation><!-- 628C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>628D</masterLabel>
+            <translation><!-- 628D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>722B</masterLabel>
+            <translation><!-- 722B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>727A</masterLabel>
+            <translation><!-- 727A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>728A</masterLabel>
+            <translation><!-- 728A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCMT-D(ULVAC)</masterLabel>
+            <translation><!-- CCMT-D(ULVAC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDG025D</masterLabel>
+            <translation><!-- CDG025D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDG045D</masterLabel>
+            <translation><!-- CDG045D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDG100D</masterLabel>
+            <translation><!-- CDG100D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FC-260</masterLabel>
+            <translation><!-- FC-260 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FC-770</masterLabel>
+            <translation><!-- FC-770 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FC-780</masterLabel>
+            <translation><!-- FC-780 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FC-7800</masterLabel>
+            <translation><!-- FC-7800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FC-795</masterLabel>
+            <translation><!-- FC-795 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FC-980</masterLabel>
+            <translation><!-- FC-980 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1005F</masterLabel>
+            <translation><!-- FCST1005F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1005FD</masterLabel>
+            <translation><!-- FCST1005FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1005L</masterLabel>
+            <translation><!-- FCST1005L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1005ZD</masterLabel>
+            <translation><!-- FCST1005ZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1005ZF</masterLabel>
+            <translation><!-- FCST1005ZF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1030F</masterLabel>
+            <translation><!-- FCST1030F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1030FD</masterLabel>
+            <translation><!-- FCST1030FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1030L</masterLabel>
+            <translation><!-- FCST1030L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1030ZD</masterLabel>
+            <translation><!-- FCST1030ZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1030ZF</masterLabel>
+            <translation><!-- FCST1030ZF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1050F</masterLabel>
+            <translation><!-- FCST1050F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1050L</masterLabel>
+            <translation><!-- FCST1050L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1200F</masterLabel>
+            <translation><!-- FCST1200F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1200FD</masterLabel>
+            <translation><!-- FCST1200FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1500F</masterLabel>
+            <translation><!-- FCST1500F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCST1500FD</masterLabel>
+            <translation><!-- FCST1500FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1460F</masterLabel>
+            <translation><!-- FMT1460F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1480F</masterLabel>
+            <translation><!-- FMT1480F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1481F</masterLabel>
+            <translation><!-- FMT1481F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1482F</masterLabel>
+            <translation><!-- FMT1482F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1580F</masterLabel>
+            <translation><!-- FMT1580F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1581F</masterLabel>
+            <translation><!-- FMT1581F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1582F</masterLabel>
+            <translation><!-- FMT1582F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1680F</masterLabel>
+            <translation><!-- FMT1680F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1681F</masterLabel>
+            <translation><!-- FMT1681F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMT1682F</masterLabel>
+            <translation><!-- FMT1682F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSCT1050FD</masterLabel>
+            <translation><!-- FSCT1050FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GF-100</masterLabel>
+            <translation><!-- GF-100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GF-120</masterLabel>
+            <translation><!-- GF-120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GF-125</masterLabel>
+            <translation><!-- GF-125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GF-135</masterLabel>
+            <translation><!-- GF-135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GFC-200</masterLabel>
+            <translation><!-- GFC-200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GFC-250</masterLabel>
+            <translation><!-- GFC-250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Model3200</masterLabel>
+            <translation><!-- Model3200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Model3660</masterLabel>
+            <translation><!-- Model3660 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Model8500</masterLabel>
+            <translation><!-- Model8500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PS100</masterLabel>
+            <translation><!-- PS100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1460F</masterLabel>
+            <translation><!-- SFC1460F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1470F</masterLabel>
+            <translation><!-- SFC1470F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1471F</masterLabel>
+            <translation><!-- SFC1471F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1472F</masterLabel>
+            <translation><!-- SFC1472F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1480F</masterLabel>
+            <translation><!-- SFC1480F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1480G1</masterLabel>
+            <translation><!-- SFC1480G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1480G1-D0</masterLabel>
+            <translation><!-- SFC1480G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1480G2</masterLabel>
+            <translation><!-- SFC1480G2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1480G4</masterLabel>
+            <translation><!-- SFC1480G4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1481F</masterLabel>
+            <translation><!-- SFC1481F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1481G1</masterLabel>
+            <translation><!-- SFC1481G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1481G1-D0</masterLabel>
+            <translation><!-- SFC1481G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1482F</masterLabel>
+            <translation><!-- SFC1482F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1482G1</masterLabel>
+            <translation><!-- SFC1482G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1482G1-D0</masterLabel>
+            <translation><!-- SFC1482G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1483G1</masterLabel>
+            <translation><!-- SFC1483G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1483G1-D0</masterLabel>
+            <translation><!-- SFC1483G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1570F</masterLabel>
+            <translation><!-- SFC1570F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1571F</masterLabel>
+            <translation><!-- SFC1571F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1572F</masterLabel>
+            <translation><!-- SFC1572F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1580F</masterLabel>
+            <translation><!-- SFC1580F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1581F</masterLabel>
+            <translation><!-- SFC1581F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1582F</masterLabel>
+            <translation><!-- SFC1582F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1670F</masterLabel>
+            <translation><!-- SFC1670F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1671F</masterLabel>
+            <translation><!-- SFC1671F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1672F</masterLabel>
+            <translation><!-- SFC1672F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1680F</masterLabel>
+            <translation><!-- SFC1680F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1681F</masterLabel>
+            <translation><!-- SFC1681F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC1682F</masterLabel>
+            <translation><!-- SFC1682F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2480G1</masterLabel>
+            <translation><!-- SFC2480G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2480G1-D0</masterLabel>
+            <translation><!-- SFC2480G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2480G2</masterLabel>
+            <translation><!-- SFC2480G2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2480G4</masterLabel>
+            <translation><!-- SFC2480G4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2481G1</masterLabel>
+            <translation><!-- SFC2481G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2481G1-D0</masterLabel>
+            <translation><!-- SFC2481G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2482G1</masterLabel>
+            <translation><!-- SFC2482G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2482G1-D0</masterLabel>
+            <translation><!-- SFC2482G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2483G1</masterLabel>
+            <translation><!-- SFC2483G1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC2483G1-D0</masterLabel>
+            <translation><!-- SFC2483G1-D0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC480</masterLabel>
+            <translation><!-- SFC480 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC480C</masterLabel>
+            <translation><!-- SFC480C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC480F</masterLabel>
+            <translation><!-- SFC480F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC481</masterLabel>
+            <translation><!-- SFC481 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC482</masterLabel>
+            <translation><!-- SFC482 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFC483</masterLabel>
+            <translation><!-- SFC483 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPG5A</masterLabel>
+            <translation><!-- SPG5A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1005F</masterLabel>
+            <translation><!-- TM1005F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1005FD</masterLabel>
+            <translation><!-- TM1005FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1005L</masterLabel>
+            <translation><!-- TM1005L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1005ZD</masterLabel>
+            <translation><!-- TM1005ZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1005ZF</masterLabel>
+            <translation><!-- TM1005ZF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1030F</masterLabel>
+            <translation><!-- TM1030F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1030FD</masterLabel>
+            <translation><!-- TM1030FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1030L</masterLabel>
+            <translation><!-- TM1030L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1030ZD</masterLabel>
+            <translation><!-- TM1030ZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1030ZF</masterLabel>
+            <translation><!-- TM1030ZF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1050F</masterLabel>
+            <translation><!-- TM1050F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1050FD</masterLabel>
+            <translation><!-- TM1050FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1050L</masterLabel>
+            <translation><!-- TM1050L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1200F</masterLabel>
+            <translation><!-- TM1200F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1200FD</masterLabel>
+            <translation><!-- TM1200FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1500F</masterLabel>
+            <translation><!-- TM1500F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM1500FD</masterLabel>
+            <translation><!-- TM1500FD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-1468</masterLabel>
+            <translation><!-- UFC-1468 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-1568</masterLabel>
+            <translation><!-- UFC-1568 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-1660</masterLabel>
+            <translation><!-- UFC-1660 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-1661</masterLabel>
+            <translation><!-- UFC-1661 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-1665</masterLabel>
+            <translation><!-- UFC-1665 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-2160</masterLabel>
+            <translation><!-- UFC-2160 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-2260</masterLabel>
+            <translation><!-- UFC-2260 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-3010</masterLabel>
+            <translation><!-- UFC-3010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-3161</masterLabel>
+            <translation><!-- UFC-3161 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-3260</masterLabel>
+            <translation><!-- UFC-3260 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-8100</masterLabel>
+            <translation><!-- UFC-8100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-8101</masterLabel>
+            <translation><!-- UFC-8101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-8160</masterLabel>
+            <translation><!-- UFC-8160 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-8161</masterLabel>
+            <translation><!-- UFC-8161 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-8260</masterLabel>
+            <translation><!-- UFC-8260 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UFC-8261</masterLabel>
+            <translation><!-- UFC-8261 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 競合営業情報 --></label>
+        <name>RivalSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- コメント --></label>
+        <name>SMAX_PS_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- STEC採用理由 --></label>
+        <name>STEC__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the total time of all breaks taken during the service. There could be multiple breaks taken during the service. --></help>
+        <label><!-- Total Break Time (Mins) --></label>
+        <name>SVMXC__Break_Time_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Driving or travel time to get back to the technician&apos;s home base from the last work order location for the day or working shift. --></help>
+        <label><!-- Travel Time Back to Home Base (Mins) --></label>
+        <name>SVMXC__Driving_Time_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Driving or travel time to this work order location from the last work order location or from the home base. --></help>
+        <label><!-- Travel Time to Workorder Location (Mins) --></label>
+        <name>SVMXC__Driving_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total overhead or flex time at the end of the service at the work order location. --></help>
+        <label><!-- Overhead Time at End of the Job (Mins) --></label>
+        <name>SVMXC__Overhead_Time_After__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total overhead or flex time before the start of the actual service at the work order location. --></help>
+        <label><!-- Overhead Time at Start of the Job (Mins) --></label>
+        <name>SVMXC__Overhead_Time_Before__c</name>
+    </fields>
+    <fields>
+        <help><!-- Idle time before the start of the actual service at the work order location. --></help>
+        <label><!-- Idle Time for the Job (Mins) --></label>
+        <name>SVMXC__SM_Idle_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is created to store the latitude of the non work order events of the technicians. --></help>
+        <label><!-- Latitude --></label>
+        <name>SVMXC__SM_Latitude__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is created to store the longitude of the non work order events of the technicians. --></help>
+        <label><!-- Longitude --></label>
+        <name>SVMXC__SM_Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optimizer Message Creation Date Time --></label>
+        <name>SVMXC__SM_Optimizer_Message_Creation_Date_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store scheduling status --></help>
+        <label><!-- Status --></label>
+        <name>SVMXC__SM_Status__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed</masterLabel>
+            <translation>確認済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-optimizable</masterLabel>
+            <translation>最適化できない</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Total service time or the wrench time of the service. --></help>
+        <label><!-- Service Time (in Seconds) --></label>
+        <name>SVMXC__Service_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販売組織１ --></label>
+        <name>SalesOrganize1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 販売組織２ --></label>
+        <name>SalesOrganize2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 装置拡販情報共有 --></label>
+        <name>System_share_information__c</name>
+    </fields>
+    <fields>
+        <label><!-- TLコメント --></label>
+        <name>TLCommnent__c</name>
+    </fields>
+    <fields>
+        <help><!-- TLは「上長報告」チェックされたもののみ確認を行い、
+確認したらチェックする。
+必要に応じて、指示/確認はChatterで連絡。 --></help>
+        <label><!-- TL確認 --></label>
+        <name>TLConfirmation__c</name>
+    </fields>
+    <fields>
+        <help><!-- TLは「上長報告」チェックされたもののみ確認を行い、
+確認したらチェックする。
+必要に応じて、指示/確認はChatterで連絡。 --></help>
+        <label><!-- TL確認 --></label>
+        <name>TL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Category --></label>
+        <name>Team_Category__c</name>
+    </fields>
+    <fields>
+        <help><!-- インプットする内容がどの技術に関連するかを選択します。 --></help>
+        <label><!-- 技術 --></label>
+        <name>Technology__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>圧力</masterLabel>
+            <translation><!-- 圧力 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>流量</masterLabel>
+            <translation><!-- 流量 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>温度</masterLabel>
+            <translation><!-- 温度 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>濃度</masterLabel>
+            <translation><!-- 濃度 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ※※※一時用　所有者ユーザID　削除必須※※※ --></label>
+        <name>TempUserID__c</name>
+    </fields>
+    <fields>
+        <label><!-- トピックス --></label>
+        <name>Topics__c</name>
+    </fields>
+    <fields>
+        <label><!-- 仕掛け --></label>
+        <name>Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- 訪問目的 --></label>
+        <name>VisitPurpose__c</name>
+        <picklistValues>
+            <masterLabel>セミナー</masterLabel>
+            <translation><!-- セミナー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>不具合対応</masterLabel>
+            <translation><!-- 不具合対応 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>仕様打合せ</masterLabel>
+            <translation><!-- 仕様打合せ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>会議</masterLabel>
+            <translation><!-- 会議 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>問合せ対応</masterLabel>
+            <translation><!-- 問合せ対応 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>定例会議</masterLabel>
+            <translation><!-- 定例会議 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>工場見学</masterLabel>
+            <translation><!-- 工場見学 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>情報収集</masterLabel>
+            <translation><!-- 情報収集 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>拡販</masterLabel>
+            <translation><!-- 拡販 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>挨拶</masterLabel>
+            <translation><!-- 挨拶 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>提案提示</masterLabel>
+            <translation><!-- 提案提示 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>案件フォロー</masterLabel>
+            <translation><!-- 案件フォロー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>現地作業</masterLabel>
+            <translation><!-- 現地作業 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>監査</masterLabel>
+            <translation><!-- 監査 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>立会試験</masterLabel>
+            <translation><!-- 立会試験 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>表敬訪問</masterLabel>
+            <translation><!-- 表敬訪問 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品PR</masterLabel>
+            <translation><!-- 製品PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>資料作成</masterLabel>
+            <translation><!-- 資料作成 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 客先分類 --></label>
+        <name>customerCategory__c</name>
+        <picklistValues>
+            <masterLabel>エンドユーザー</masterLabel>
+            <translation><!-- エンドユーザー --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>特約店</masterLabel>
+            <translation><!-- 特約店 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>装置メーカー</masterLabel>
+            <translation><!-- 装置メーカー --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 開発コメント --></label>
+        <name>deveroper_commnet__c</name>
+    </fields>
+    <fields>
+        <label><!-- 業種 --></label>
+        <name>industryType__c</name>
+        <picklistValues>
+            <masterLabel>製造業</masterLabel>
+            <translation><!-- 製造業 --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

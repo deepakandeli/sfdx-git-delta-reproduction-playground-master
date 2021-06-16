@@ -1,0 +1,15 @@
+<apex:page standardController="SVMXC__Site__c">
+  <!-- Begin Default Content REMOVE THIS -->
+  <!--<h1>It is not available to create Location from this "New" Button. Please process from the SFM link on Account.</h1>-->
+  <!--<h1>設置場所をこのボタンから作成することはできません。取引先のService Flow Wizardにある「設置場所作成」から作成してください。</h1>-->
+  
+  <Body style="font-size:20px; background-color:white">
+   <p>It is not available to create Location from this "New" Button. Please process from the SFM link on Account.</p>
+   <p>設置場所をこのボタンから作成することはできません。取引先のService Flow Wizardにある「設置場所作成」から作成してください。</p>
+   </Body>
+  
+  <!--<apex:outputText value="It is not available to create Location from this New Button. Please process from the SFM link on Account." style="white-space: pre;font-size:20px;" escape="false"/><br/>
+
+<apex:outputText value="設置場所をこのボタンから作成することはできません。取引先のService Flow Wizardにある「設置場所作成」から作成してください。" style="white-space: pre;font-size:20px;" escape="false"/>-->
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

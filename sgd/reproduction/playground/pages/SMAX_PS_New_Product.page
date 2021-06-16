@@ -1,0 +1,11 @@
+<!--
+-->
+<apex:page standardController="Product2">
+    <script>
+    window.onload = window.setTimeout(redirect(),0);
+    
+    function redirect(){
+        window.location.href='/apex/SVMXC__ServiceMaxConsole?SVMX_action=SFM&SVMX_processId=SFM161493321441421f0f6517e9ab3cca4d30f2fc09180cc&SVMX_IsSFMLightning=true'; 
+    }
+    </script>    
+</apex:page>

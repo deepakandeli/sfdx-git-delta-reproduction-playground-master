@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>アクティビティ製品</value>
+    </caseValues>
+    <fields>
+        <label><!-- 外部キー --></label>
+        <name>SMAX_PS_External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- 製品区分 --></label>
+        <name>SMAX_PS_Product_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- 対象区分 --></label>
+        <name>SMAX_PS_Service_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- 単位（サービス品目） --></label>
+        <name>SMAX_PS_Unit_Of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Product --></label>
+        <name>SVMXC__Activity_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>SVMXC__Activity__c</name>
+        <relationshipLabel><!-- Activity Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>SVMXC__Product_Family__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation><!-- Accessory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antivirus</masterLabel>
+            <translation><!-- Antivirus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bundle</masterLabel>
+            <translation><!-- Bundle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database</masterLabel>
+            <translation><!-- Database --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desktop</masterLabel>
+            <translation><!-- Desktop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dimension</masterLabel>
+            <translation><!-- Dimension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latitude</masterLabel>
+            <translation><!-- Latitude --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating System</masterLabel>
+            <translation><!-- Operating System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OptiPlex</masterLabel>
+            <translation><!-- OptiPlex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PowerConnect</masterLabel>
+            <translation><!-- PowerConnect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PowerEdge</masterLabel>
+            <translation><!-- PowerEdge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PowerVault</masterLabel>
+            <translation><!-- PowerVault --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precision</masterLabel>
+            <translation><!-- Precision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Productivity</masterLabel>
+            <translation><!-- Productivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recovery</masterLabel>
+            <translation><!-- Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vostro</masterLabel>
+            <translation><!-- Vostro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XPS</masterLabel>
+            <translation><!-- XPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>SVMXC__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>その他</masterLabel>
+            <translation><!-- その他 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>作業費</masterLabel>
+            <translation><!-- 作業費 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>検査機器</masterLabel>
+            <translation><!-- 検査機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>機器</masterLabel>
+            <translation><!-- 機器 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>製品</masterLabel>
+            <translation><!-- 製品 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>部品</masterLabel>
+            <translation><!-- 部品 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>SVMXC__Product__c</name>
+        <relationshipLabel><!-- Activity Products --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Activity Product Layout</layout>
+        <sections>
+            <label>カスタム リンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SVMX Activity Product - Standard</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>レコード番号</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- 作業費/検査機器/その他の品目のみ設定してください --></errorMessage>
+        <name>SMAX_PS_Product_Line_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity Product must be defined for only one of Product, Product Family, or Product Line. --></errorMessage>
+        <name>SVMXC__SVMX_Product_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

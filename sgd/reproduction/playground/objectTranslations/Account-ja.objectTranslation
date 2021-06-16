@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Service Board Fields --></label>
+        <name>SVMXC__SM_Service_Board_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- アカウントプラン --></label>
+        <name>AccountPlan__c</name>
+        <relationshipLabel><!-- 取引先 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 削除市区郡町名・番地 --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- 累積失注金額 --></label>
+        <name>CSM_SFDC_RuisekiLost_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- 【FORCAS】FORCAS企業 --></label>
+        <name>FSJP__fs_company__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 顧客ランク --></label>
+        <name>Lank__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MarketoFlg --></label>
+        <name>MarketoFlg__c</name>
+    </fields>
+    <fields>
+        <label><!-- 削除郵便番号 --></label>
+        <name>PostNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- 削除都道府県 --></label>
+        <name>Pref__c</name>
+    </fields>
+    <fields>
+        <help><!-- 今までの成約回数。
+成立フラグが立っている商談の合計数 --></help>
+        <label><!-- 累積成約回数 --></label>
+        <name>Ruisekisei_yaku_kaisuu__c</name>
+    </fields>
+    <fields>
+        <help><!-- 今までの成約金額。 
+成立フラグが立っている商談の合計金額 --></help>
+        <label><!-- 累積成約金額 --></label>
+        <name>SFDC_RuisekiClose_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP得意先コード --></label>
+        <name>SMAX_PS_CustomerCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>SMAX_PS_Customer_Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GEO Plus顧客データベースリンク --></label>
+        <name>SMAX_PS_LinktoGEOPlus__c</name>
+    </fields>
+    <fields>
+        <label><!-- ﻿HTS支払条件 --></label>
+        <name>SMAX_PS_Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP購買グループ --></label>
+        <name>SMAX_PS_PurchaseOrg__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP仕入先コード --></label>
+        <name>SMAX_PS_SAP_VendorCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP注文主設定 --></label>
+        <name>SMAX_PS_SoldtoFlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Access Hours --></label>
+        <name>SVMXC__Access_Hours__c</name>
+        <relationshipLabel><!-- 取引先 (立入可能時間) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- (Do Not Use) --></help>
+        <label><!-- Business Hours (Do Not Use) --></label>
+        <name>SVMXC__Business_Hours__c</name>
+        <relationshipLabel><!-- Accounts (Business Hours) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Address location north or south of the equator. --></help>
+        <label><!-- Latitude --></label>
+        <name>SVMXC__Latitude__c</name>
+    </fields>
+    <fields>
+        <help><!-- East west geographic coordinate measurement. --></help>
+        <label><!-- Longitude --></label>
+        <name>SVMXC__Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Technician --></label>
+        <name>SVMXC__Preferred_Technician__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- External System Unique ID --></help>
+        <label><!-- External Record ID --></label>
+        <name>SVMXC__SM_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- 名刺手書きメモ --></label>
+        <name>SmartViscaf__NameCardFreehandmemo__c</name>
+    </fields>
+    <fields>
+        <help><!-- 名刺から取り込んだ時のリスト名 --></help>
+        <label><!-- 名刺リスト名 --></label>
+        <name>SmartViscaf__NameCardListName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 名刺メモ --></label>
+        <name>SmartViscaf__NameCardMemo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 名刺 --></label>
+        <name>SmartViscaf__NameCard__c</name>
+        <relationshipLabel><!-- 取引先 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Team Category --></label>
+        <name>Team_Category_del__c</name>
+        <picklistValues>
+            <masterLabel>A1</masterLabel>
+            <translation><!-- A1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A2</masterLabel>
+            <translation><!-- A2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD</masterLabel>
+            <translation><!-- BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IR</masterLabel>
+            <translation><!-- IR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Business Hours --></label>
+        <name>Test_Business_Hours__c</name>
+        <relationshipLabel><!-- 取引先 (Test Business Hours) --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <description><!-- 取引のある得意先 --></description>
+        <label><!-- 得意先 --></label>
+        <name>AccountType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SVMX Account --></label>
+        <name>SMAX_PS_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 都道府県もしくは市区郡が空白です。 --></errorMessage>
+        <name>Account_BillingAddress_Mandatoryfields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP管理の取引先なのでSAPにて編集ください。 --></errorMessage>
+        <name>SMAX_PS_Account_Mastered_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP管理の取引先なのでSAPにて編集ください。 --></errorMessage>
+        <name>SMAX_PS_Account_Mastered_Validation_BkUp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP管理の取引先をSAPにて新規登録ください。 --></errorMessage>
+        <name>SMAX_PS_New_Account_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SAP管理の取引先をSAPにて新規登録ください。 --></errorMessage>
+        <name>SMAX_PS_New_Account_Validation_BkUp</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CreateActivity --></label>
+        <name>CreateActivity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NameCardList --></label>
+        <name>SmartViscaf__NameCardList</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NameCardListLex --></label>
+        <name>SmartViscaf__NameCardListLex</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List_Detail --></label>
+        <name>mkto_si__Add_to_Watch_List_Detail</name>
+    </webLinks>
+</CustomObjectTranslation>

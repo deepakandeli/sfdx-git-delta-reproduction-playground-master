@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>SVMXC__SVMX_LaunchHelp</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>In ServiceMax, Quote contains the estimated cost of a service event to be presented to a customer to get approval. A quote can be either created manually or generated automatically from the estimate lines of a service order. The estimates normally include parts, labor and other expenses.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>SMAX_PS_Activity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Activity</label>
+        <referenceTo>SVMXC__Activity_Master__c</referenceTo>
+        <relationshipLabel>Quote Items</relationshipLabel>
+        <relationshipName>Quote_Items</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Item_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>見積品目名</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Service_Pricebook_Entry__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Service Pricebook Entry</label>
+        <referenceTo>SVMXC__Service_Pricebook_Entry__c</referenceTo>
+        <relationshipLabel>Quote Items</relationshipLabel>
+        <relationshipName>Quote_Items</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SMAX_PS_Service_Quote_IP_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Service Quote IP Line</label>
+        <referenceTo>SMAX_PS_Service_Quote_IP_Line__c</referenceTo>
+        <relationshipLabel>Quote Items</relationshipLabel>
+        <relationshipName>Quote_Items</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Discount_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the Discount Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Discount Type</inlineHelpText>
+        <label>Discount Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                    <label>Percent</label>
+                </value>
+                <value>
+                    <fullName>Amount</fullName>
+                    <default>false</default>
+                    <label>Amount</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Discount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Discount (Amount or percentage) for the line</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Discount (Amount or percentage) for the line</inlineHelpText>
+        <label>Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Line_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Detailed description of the quote line</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Detailed description of the quote line</inlineHelpText>
+        <label>Line Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Line_Price2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Final line price after applying discount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Final line price after applying discount</inlineHelpText>
+        <label>Line Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Line_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if the line refers to a part, labor or expense estimate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if the line refers to a part, labor or expense estimate</inlineHelpText>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Parts</fullName>
+                    <default>false</default>
+                    <label>Parts</label>
+                </value>
+                <value>
+                    <fullName>Labor</fullName>
+                    <default>false</default>
+                    <label>Labor</label>
+                </value>
+                <value>
+                    <fullName>Expense</fullName>
+                    <default>false</default>
+                    <label>Expense</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Name of the product if line type is Parts. Is a lookup to an existing salesforce product record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the product if line type is Parts. Is a lookup to an existing salesforce product record.</inlineHelpText>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipName>Quote_Line</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Quantity2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of units. This depends upon the line type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of units. This depends upon the line type</inlineHelpText>
+        <label>Qty</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Quote__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the quote. Is a lookup to an existing quote in ServiceMax</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the quote. Is a lookup to an existing quote in ServiceMax</inlineHelpText>
+        <label>Service Quote</label>
+        <referenceTo>SVMXC__Quote__c</referenceTo>
+        <relationshipLabel>Quote Items</relationshipLabel>
+        <relationshipName>Quote_Line</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Select__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Field to bind checkbox in List of Quote item records on Visualforce page with controller.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to bind checkbox in List of Quote item records on Visualforce page with controller.</inlineHelpText>
+        <label>Select</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Service_Order_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Service Order estimates line record using which this quote line was created. Not displayed on the screen.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Service Order estimates line record using which this quote line was created. Not displayed on the screen.</inlineHelpText>
+        <label>Work Details</label>
+        <referenceTo>SVMXC__Service_Order_Line__c</referenceTo>
+        <relationshipLabel>Quote Items</relationshipLabel>
+        <relationshipName>Quote_Line</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SVMXC__Unit_Price2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Price per unit of the line. Product cost if it is a Parts line, hourly charges if it is labor and so on</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Price per unit of the line. Product cost if it is a Parts line, hourly charges if it is labor and so on</inlineHelpText>
+        <label>Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Quote Item</label>
+    <nameField>
+        <displayFormat>QL-{00000000}</displayFormat>
+        <label>Quote Line ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Quote Items</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>SVMXC__Quote__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Line_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Product__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Quantity2__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Unit_Price2__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Discount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SVMXC__Line_Price2__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Quote__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Line_Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Product__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Quantity2__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Unit_Price2__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Discount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SVMXC__Line_Price2__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SVMXC__Discount__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Line_Price2__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Line_Type__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Product__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Quantity2__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Quote__c</searchFilterFields>
+        <searchFilterFields>SVMXC__Unit_Price2__c</searchFilterFields>
+        <searchFilterFields>CREATEDBY_USER</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
