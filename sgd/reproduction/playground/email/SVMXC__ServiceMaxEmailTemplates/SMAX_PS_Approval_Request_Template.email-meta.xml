@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-2022-JP</encodingKey>
+    <name>見積承認者通知</name>
+    <style>none</style>
+    <subject>【Quote#{!SVMXC__Quote__c.Name}】見積承認依頼 {!SVMXC__Quote__c.SVMXC__Company__c} {!SVMXC__Quote__c.SMAX_PS_Subject__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

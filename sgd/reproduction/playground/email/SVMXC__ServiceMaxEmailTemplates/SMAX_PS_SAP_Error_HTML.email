@@ -1,0 +1,12 @@
+Hi,
+
+There has been an Integration error experienced by Jitterbit.
+<br/>
+<br/>
+
+<div><b>Failure occurred at:</b> {!SMAX_PS_Interface_Log__c.SMAX_PS_Error_Event_Type__c}</div>
+<div><b>Error Type :</b> {!SMAX_PS_Interface_Log__c.SMAX_PS_Error_Type__c}</div>
+<div><b>Error Message:</b> {!SMAX_PS_Interface_Log__c.SMAX_PS_Error_Message__c}</div>
+<br/><br/>
+<div>For more information about the error, click here <a href='{!SMAX_PS_Interface_Log__c.Link}'> {!SMAX_PS_Interface_Log__c.Name}</a>
+<br/><br/></div>

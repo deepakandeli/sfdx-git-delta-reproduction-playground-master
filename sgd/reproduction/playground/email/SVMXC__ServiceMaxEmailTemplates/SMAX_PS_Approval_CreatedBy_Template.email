@@ -1,0 +1,4 @@
+{!$User.LastName} {!$User.FirstName}さんから{!SVMXC__Quote__c.SMAX_PS_Approver__c}さんに対して、見積承認依頼がきています。
+ご確認の上、ご承認お願いいたします。
+
+{!SVMXC__Quote__c.Link}

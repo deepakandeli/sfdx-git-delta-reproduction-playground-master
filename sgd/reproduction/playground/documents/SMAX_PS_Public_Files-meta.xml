@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Public Files</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>SMAX_PS_HTS_Account_R_W</group>
+        <group>SMAX_PS_HTS_Other_Object_R_W</group>
+        <roleAndSubordinates>SMAX_PS_HTS_Automotive_External_Staff</roleAndSubordinates>
+        <roleAndSubordinates>SMAX_PS_HTS_Director_Manager_Business_Admin</roleAndSubordinates>
+        <roleAndSubordinates>SMAX_PS_HTS_Medical_External_Staff</roleAndSubordinates>
+        <roleAndSubordinates>SMAX_PS_HTS_P_E_External_Staff</roleAndSubordinates>
+        <roleAndSubordinates>SMAX_PS_HTS_Scienrific_External_Staff</roleAndSubordinates>
+        <roleAndSubordinates>SMAX_PS_HTS_Semiconductor_External_Staff</roleAndSubordinates>
+        <roleAndSubordinates>SMAX_PS_HTS_Staff</roleAndSubordinates>
+        <roleAndSubordinates>SMAX_PS_HTS_TL</roleAndSubordinates>
+    </sharedTo>
+</DocumentFolder>
